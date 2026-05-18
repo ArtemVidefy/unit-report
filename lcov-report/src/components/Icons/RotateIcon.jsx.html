@@ -1,0 +1,136 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/RotateIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> RotateIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import ICON_SIZE from 'components/Icons/IconSize';
+import PropTypes from 'prop-types';
+&nbsp;
+const RotateIcon = <span class="fstat-no" title="function not covered" >({</span> size=<span class="branch-0 cbranch-no" title="branch not covered" >'16',</span> color = <span class="branch-0 cbranch-no" title="branch not covered" >'rgba(255,255,255,0.6)' </span>}) =&gt; {
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;svg width={size} height='19.0624' viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+      &lt;path fill-rule="evenodd" clip-rule="evenodd" d="M3.49852 13.0655C3.49852 13.4633 3.65645 13.8447 3.93782 14.1255C4.21869 14.4069 4.60002 14.5648 4.99783 14.5648C6.63258 14.5648 9.86009 14.5648 11.4948 14.5648C11.8926 14.5648 12.274 14.4069 12.5548 14.1255C12.8362 13.8447 12.9941 13.4633 12.9941 13.0655V6.56852C12.9941 6.1707 12.8362 5.78937 12.5548 5.5085C12.274 5.22713 11.8926 5.06921 11.4948 5.06921H4.99783C4.60002 5.06921 4.21869 5.22713 3.93782 5.5085C3.65645 5.78937 3.49852 6.1707 3.49852 6.56852V13.0655ZM4.49806 13.0655V6.56852C4.49806 6.43608 4.55054 6.30863 4.6445 6.21518C4.73795 6.12122 4.86539 6.06875 4.99783 6.06875H11.4948C11.6273 6.06875 11.7547 6.12122 11.8482 6.21518C11.9421 6.30863 11.9946 6.43608 11.9946 6.56852V13.0655C11.9946 13.198 11.9421 13.3254 11.8482 13.4189C11.7547 13.5128 11.6273 13.5653 11.4948 13.5653H4.99783C4.86539 13.5653 4.73795 13.5128 4.6445 13.4189C4.55054 13.3254 4.49806 13.198 4.49806 13.0655ZM4.33714 16.6099C3.39008 16.6429 2.60794 16.4934 2.03471 16.0836C1.36901 15.6073 1.02517 14.7797 0.999678 13.5548C0.993681 13.2789 0.765287 13.06 0.489414 13.0655C0.213542 13.0715 -0.0053587 13.2999 0.000139236 13.5758C0.0346231 15.2005 0.569871 16.2645 1.45346 16.8962C2.15314 17.397 3.09621 17.6279 4.24418 17.6104L3.64496 18.2096C3.45005 18.4046 3.45005 18.7214 3.64496 18.9163C3.83987 19.1112 4.15672 19.1112 4.35163 18.9163L5.4976 17.7703C5.88792 17.38 5.88792 16.7473 5.4976 16.357L4.35163 15.211C4.15672 15.0161 3.83987 15.0161 3.64496 15.211C3.45005 15.4059 3.45005 15.7228 3.64496 15.9177L4.33714 16.6099Z" fill={color}/&gt;
+      &lt;path fill-rule="evenodd" clip-rule="evenodd" d="M11.6627 2.45262C12.6097 2.41964 13.3919 2.56906 13.9651 2.97887C14.6308 3.45515 14.9746 4.28277 15.0001 5.50771C15.0061 5.78358 15.2345 6.00248 15.5104 5.99698C15.7863 5.99099 16.0052 5.76259 15.9997 5.48672C15.9652 3.86197 15.4299 2.79796 14.5464 2.16625C13.8467 1.66549 12.9036 1.43459 11.7556 1.45208L12.3549 0.852857C12.5498 0.657947 12.5498 0.341093 12.3549 0.146183C12.1599 -0.0487275 11.8431 -0.0487275 11.6482 0.146183L10.5022 1.29215C10.1119 1.68247 10.1119 2.31518 10.5022 2.7055L11.6482 3.85147C11.8431 4.04638 12.1599 4.04638 12.3549 3.85147C12.5498 3.65656 12.5498 3.33971 12.3549 3.1448L11.6627 2.45262Z" fill={color}/&gt;
+    &lt;/svg&gt;
+&nbsp;
+  );
+};
+RotateIcon.propTypes = {
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  color: PropTypes.string,
+};
+export default RotateIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

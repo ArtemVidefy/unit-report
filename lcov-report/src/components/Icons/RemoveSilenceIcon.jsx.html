@@ -1,0 +1,166 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/RemoveSilenceIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> RemoveSilenceIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import ICON_SIZE from 'components/Icons/IconSize';
+import PropTypes from 'prop-types';
+&nbsp;
+const RemoveSilenceIcon = <span class="fstat-no" title="function not covered" >({</span> size = <span class="branch-0 cbranch-no" title="branch not covered" >ICON_SIZE.MEDIUM,</span> color }) =&gt; {
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;svg
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    &gt;
+      &lt;path
+        fill={color}
+        d="M1.268 23.243c0.172 0.172 0.397 0.257 0.622 0.257s0.45-0.086 0.622-0.257l16.297-16.297c0.117 0.575-1.257 2.619-1.257 3.257 0 0.195 0.065 0.384 0.184 0.538 0.899 1.16 1.558 2.139 1.961 2.909 0.134 0.256 0.031 0.477-0.019 0.56-0.051 0.085-0.203 0.282-0.499 0.282-0.824 0-1.499 0.619-1.569 1.441l-0.19 2.22c-0.072 0.844-0.765 1.48-1.612 1.48h-0.741c-0.706 0-1.369 0.275-1.868 0.775s-0.771 1.164-0.769 1.87l0.001 0.346c0.002 0.484 0.395 0.876 0.879 0.876h0.003c0.485-0.002 0.878-0.396 0.876-0.882l-0.001-0.346c-0.001-0.235 0.090-0.457 0.256-0.623s0.387-0.258 0.623-0.258h0.741c0.848 0 1.659-0.316 2.283-0.889s1.008-1.355 1.081-2.199l0.176-2.059c0.758-0.053 1.435-0.465 1.834-1.123 0.426-0.703 0.454-1.557 0.074-2.284-0.429-0.82-1.067-1.783-1.949-2.937-0.027-1.050-0.194-2.040-0.497-2.953 0 0 4.102-4.102 4.445-4.446s0-1.243 0-1.243-0.9-0.343-1.243 0c-0.343 0.343-20.742 20.742-20.742 20.742-0.343 0.343-0.343 0.9 0 1.243zM15.188 4.485c-1.269-1.146-2.978-1.728-5.080-1.728-4.527 0-7.339 2.913-7.339 7.603 0 1.16 0.405 1.809 0.918 2.632 0.441 0.708 0.942 1.509 1.181 2.686 0.097 0.476-0.211 0.94-0.686 1.036-0.059 0.012-0.118 0.018-0.176 0.018-0.409 0-0.776-0.287-0.86-0.704-0.176-0.866-0.552-1.468-0.949-2.106-0.555-0.89-1.185-1.899-1.185-3.562 0-5.686 3.571-9.36 9.097-9.36 2.55 0 4.656 0.734 6.258 2.181 0.36 0.325 0.389 0.881 0.063 1.241s-0.881 0.388-1.241 0.063z"
+      /&gt;
+      &lt;path
+        fill={color}
+        d="M21.894 17.628c0.237 0 0.43 0.192 0.43 0.43v4.849c0 0.191 0.155 0.345 0.345 0.345s0.345-0.155 0.345-0.345v-0.766c0-0.196 0.159-0.356 0.356-0.356s0.356 0.159 0.356 0.356v0.913c0 0.191 0.155 0.345 0.345 0.345s0.345-0.155 0.345-0.345v-0.436c0-0.217 0.176-0.393 0.393-0.393s0.393 0.176 0.393 0.393v0.729c0 0.191 0.155 0.345 0.345 0.345s0.345-0.155 0.345-0.345c0-0.308 0.143-0.461 0.319-0.461s0.319 0.143 0.319 0.319v2.719c0 0.211-0.064 0.416-0.184 0.589l-0.321 0.464c-0.2 0.289-0.307 0.619-0.307 1.013h-4.58l-0.227-0.619c-0.084-0.229-0.214-0.434-0.375-0.607-0.206-0.223-0.529-0.587-0.798-0.949-0.261-0.46-0.4-0.991-0.473-1.42-0.037-0.215-0.056-0.399-0.066-0.529-0.005-0.065-0.009-0.163-0.010-0.197-0.002-0.191-0.158-0.344-0.349-0.342s-0.344 0.164-0.342 0.355c0.002 0.041 0.007 0.163 0.012 0.236 0.011 0.147 0.033 0.353 0.073 0.592 0.081 0.475 0.241 1.102 0.565 1.665 0.293 0.397 0.665 0.824 0.879 1.056 0.104 0.113 0.184 0.24 0.234 0.377l0.14 0.381h-0.004c-0.259 0-0.432 0.154-0.432 0.345v1.382c0 0.191 0.155 0.345 0.345 0.345s0.345-0.154 0.345-0.345v-1.036h5.526v1.036c0 0.191 0.155 0.345 0.345 0.345s0.345-0.154 0.345-0.345v-1.382c0-0.191-0.155-0.345-0.345-0.345h-0.121c0-0.259 0.064-0.447 0.184-0.62l0.321-0.464c0.2-0.289 0.307-0.631 0.307-0.982v-2.719c0-0.558-0.452-1.010-1.010-1.010-0.133 0-0.26 0.026-0.377 0.073-0.146-0.426-0.55-0.733-1.026-0.733-0.184 0-0.357 0.046-0.509 0.127-0.174-0.337-0.525-0.567-0.93-0.567-0.125 0-0.245 0.022-0.356 0.062v-3.099c0-0.619-0.502-1.12-1.12-1.12s-1.12 0.502-1.12 1.12v5.768c0 0.162-0.038 0.321-0.111 0.466l-0.074 0.147c-0.086 0.17-0.017 0.378 0.153 0.464s0.378 0.017 0.464-0.153l0.074-0.147c0.121-0.241 0.184-0.507 0.184-0.776v-5.768c0-0.237 0.192-0.43 0.429-0.43z"
+      /&gt;
+    &lt;/svg&gt;
+  );
+};
+RemoveSilenceIcon.propTypes = {
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  color: PropTypes.string,
+};
+export default RemoveSilenceIcon;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

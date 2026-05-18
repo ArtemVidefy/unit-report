@@ -1,0 +1,139 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/FontWeightIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> FontWeightIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import ICON_SIZE from 'components/Icons/IconSize';
+import PropTypes from 'prop-types';
+&nbsp;
+const FontWeightIcon = <span class="fstat-no" title="function not covered" >({</span> size = <span class="branch-0 cbranch-no" title="branch not covered" >'12',</span> color = <span class="branch-0 cbranch-no" title="branch not covered" >'white' </span>}) =&gt; {
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;svg width={size} height={size} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+      &lt;path d="M8.85411 6.29679C8.54161 5.93218 8.07815 5.67878 7.46349 5.5364C7.89423 5.33847 8.15463 5.20481 8.2449 5.1354C8.46364 4.97219 8.62857 4.78986 8.7395 4.5885C8.85063 4.38707 8.90612 4.16486 8.90612 3.92184C8.90612 3.69616 8.86973 3.48437 8.79676 3.28644C8.72385 3.08848 8.61102 2.90793 8.45826 2.74476C8.30201 2.58162 8.12492 2.4496 7.92701 2.3489C7.74296 2.25866 7.57628 2.19096 7.42697 2.14583C7.06937 2.05206 6.73776 2.00518 6.43224 2.00518H6.04682C5.97739 2.00518 5.90697 2.00431 5.83581 2.00255C5.7647 2.00091 5.72738 2 5.72391 2C5.7066 2 5.68225 2.00091 5.65091 2.00257C5.61966 2.00432 5.59529 2.0052 5.57796 2.0052L5.34354 2.01043L3.36446 2.07813L2.01034 2.1094L2.03118 2.54165C2.3228 2.57988 2.5208 2.60252 2.62492 2.60942C2.802 2.61983 2.9218 2.64594 2.98431 2.68755C3.02255 2.71537 3.04338 2.73618 3.04685 2.75007C3.08155 2.82645 3.10059 3.01567 3.10413 3.31778C3.11799 3.83168 3.13366 4.53306 3.15097 5.42191L3.16139 8.01041C3.16139 8.45477 3.14579 8.79169 3.11455 9.02081C3.10066 9.10416 3.06416 9.19269 3.00515 9.28646C2.84542 9.35238 2.63189 9.40625 2.36453 9.4479C2.28472 9.45826 2.16664 9.47911 2.01042 9.51047L2 10C2.82982 9.97218 3.30202 9.95314 3.41675 9.9427C4.15973 9.8975 4.67716 9.87847 4.96879 9.88538L5.99477 9.90613C6.39769 9.91999 6.74141 9.90087 7.02608 9.84886C7.47743 9.76553 7.82978 9.66128 8.08336 9.53628C8.34025 9.4113 8.58327 9.22378 8.81239 8.97382C8.98619 8.7829 9.10929 8.57977 9.1822 8.3644C9.28292 8.06935 9.33321 7.78988 9.33321 7.52594C9.3333 7.07464 9.17363 6.66487 8.85411 6.29679ZM4.77608 2.60429C5.04691 2.55916 5.2726 2.5366 5.45314 2.5366C6.04686 2.5366 6.48967 2.66683 6.78127 2.92722C7.07623 3.18757 7.22388 3.51226 7.22388 3.90111C7.22388 4.45323 7.06942 4.8421 6.76042 5.06778C6.45141 5.29343 5.99306 5.40632 5.38545 5.40632C5.15629 5.40632 4.96706 5.39418 4.81779 5.36989C4.81426 5.2518 4.81253 5.11814 4.81253 4.96881L4.81779 4.45841C4.82121 3.91334 4.8108 3.42899 4.78652 3.00531C4.77955 2.89075 4.77608 2.75716 4.77608 2.60429ZM7.38025 8.61972C7.25177 8.86968 7.03991 9.06589 6.74488 9.20831C6.4497 9.3507 6.07466 9.42179 5.61986 9.42179C5.39763 9.42179 5.15457 9.36637 4.8907 9.25524C4.84903 9.1546 4.82818 9.07807 4.82811 9.02601L4.81253 7.61975L4.81779 6.71873V5.96872C4.91155 5.93401 5.08691 5.91668 5.34384 5.91668C5.9237 5.91668 6.35247 5.97224 6.63026 6.08332C6.91843 6.19453 7.16326 6.41325 7.36466 6.73964C7.507 6.96887 7.57816 7.28132 7.57816 7.67718C7.57809 8.06249 7.51209 8.3767 7.38025 8.61972Z" fill={color}/&gt;
+    &lt;/svg&gt;
+&nbsp;
+  );
+};
+&nbsp;
+FontWeightIcon.propTypes = {
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  color: PropTypes.string,
+};
+&nbsp;
+export default FontWeightIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

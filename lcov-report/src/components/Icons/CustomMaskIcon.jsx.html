@@ -1,0 +1,157 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/CustomMaskIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> CustomMaskIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/7</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import PropTypes from 'prop-types';
+import React from 'react';
+&nbsp;
+const CustomMaskIcon = <span class="fstat-no" title="function not covered" >({</span> isActive, color = <span class="branch-0 cbranch-no" title="branch not covered" >'rgba(255,255,255,0.4)' </span>}) =&gt; (
+<span class="cstat-no" title="statement not covered" >  &lt;svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;</span>
+    &lt;rect x="0.5" y="0.5" width="31" height="31" rx="5.5" stroke={isActive ? 'rgba(58, 252, 234, 0.5)' : color}/&gt;
+    &lt;g clip-path="url(#clip0_1391_232825)"&gt;
+      &lt;path d="M25.5999 11.8481L20.1463 6.38725C19.6323 5.87077 18.7308 5.8712 18.2176 6.38682L16.3999 8.20697C16.142 8.46431 16 8.80743 16 9.1728C16 9.53817 16.142 9.88129 16.3995 10.1382L21.8536 15.5995C22.1106 15.8577 22.4533 16 22.8181 16C23.183 16 23.5257 15.8577 23.7823 15.6L25.6 13.7798C25.8579 13.5225 25.9999 13.1793 25.9999 12.814C25.9999 12.4486 25.8578 12.1054 25.5999 11.8481Z" fill={isActive ? 'rgba(58, 252, 234, 0.5)' : color}/&gt;
+      &lt;path d="M16.0196 11.0515C15.8704 10.9019 15.6387 10.8753 15.4607 10.9854C14.1335 11.799 12.0543 12.7689 9.6857 12.7689C9.48286 12.7689 9.30439 12.9034 9.24849 13.0987L6.01741 24.4077C5.96014 24.6092 6.04758 24.8236 6.22958 24.9275C6.41111 25.03 6.64106 24.9976 6.78488 24.8445L12.1919 19.1196C12.3734 18.927 12.4591 18.6558 12.4267 18.3752C12.3641 17.8266 12.6153 17.3263 13.0983 17.0373C13.5226 16.7843 14.0859 16.7967 14.5036 17.0671C14.8654 17.3028 15.0891 17.6628 15.1326 18.0805C15.1756 18.4919 15.0327 18.8954 14.7406 19.1875C14.4481 19.48 14.0433 19.619 13.6233 19.5723C13.337 19.5386 13.0743 19.6247 12.8807 19.808L7.15557 25.2151C7.00331 25.3589 6.96914 25.588 7.07256 25.7704C7.15514 25.9151 7.30736 25.9999 7.46763 25.9999C7.50892 25.9999 7.55107 25.9941 7.59236 25.9826L18.9013 22.7515C19.0966 22.6956 19.2311 22.5171 19.2311 22.3143C19.2311 19.9457 20.201 17.8665 21.0147 16.5393C21.1243 16.3604 21.0973 16.1291 20.9485 15.9804L16.0196 11.0515Z" fill={isActive ? 'rgba(58, 252, 234, 0.5)' : color}/&gt;
+    &lt;/g&gt;
+    &lt;defs&gt;
+      &lt;clipPath id="clip0_1391_232825"&gt;
+        &lt;rect width="20" height="20" fill="white" transform="translate(6 6)"/&gt;
+      &lt;/clipPath&gt;
+    &lt;/defs&gt;
+  &lt;/svg&gt;
+&nbsp;
+);
+&nbsp;
+CustomMaskIcon.propTypes = {
+  color: PropTypes.string,
+};
+&nbsp;
+export default CustomMaskIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

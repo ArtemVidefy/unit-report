@@ -1,0 +1,259 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/EffectsTooltipIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> EffectsTooltipIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">50% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>1/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">50% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>1/2</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import ICON_SIZE from 'components/Icons/IconSize';
+&nbsp;
+const EffectsTooltipIcon = <span class="fstat-no" title="function not covered" >({</span> size = <span class="branch-0 cbranch-no" title="branch not covered" >ICON_SIZE.SMALL,</span> color = <span class="branch-0 cbranch-no" title="branch not covered" >'#3AFCEA' </span>}) =&gt; {
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+        &lt;path d="M7.45 1.598C7.6985 1.598 7.9 1.3965 7.9 1.148V0.45C7.9 0.2015 7.6985 0 7.45 0C7.2015 0 7 0.2015 7 0.45V1.148C7 1.3965 7.2015 1.598 7.45 1.598Z" fill="url(#paint0_linear_761_365492)"/&gt;
+        &lt;path d="M7.45 13.3018C7.2015 13.3018 7 13.5033 7 13.7518V14.4498C7 14.6983 7.2015 14.8998 7.45 14.8998C7.6985 14.8998 7.9 14.6983 7.9 14.4498V13.7518C7.9 13.5033 7.6985 13.3018 7.45 13.3018Z" fill="url(#paint1_linear_761_365492)"/&gt;
+        &lt;path d="M14.4488 7H13.7508C13.5023 7 13.3008 7.2015 13.3008 7.45C13.3008 7.6985 13.5023 7.9 13.7508 7.9H14.4488C14.6973 7.9 14.8988 7.6985 14.8988 7.45C14.8988 7.2015 14.6973 7 14.4488 7Z" fill="url(#paint2_linear_761_365492)"/&gt;
+        &lt;path d="M1.148 7H0.45C0.2015 7 0 7.2015 0 7.45C0 7.6985 0.2015 7.9 0.45 7.9H1.148C1.3965 7.9 1.598 7.6985 1.598 7.45C1.598 7.2015 1.3965 7 1.148 7Z" fill="url(#paint3_linear_761_365492)"/&gt;
+        &lt;path d="M3.71266 4.35013C3.80066 4.43813 3.91566 4.48213 4.03066 4.48213C4.14566 4.48213 4.26116 4.43813 4.34916 4.35013C4.52516 4.17463 4.52516 3.88963 4.34916 3.71413L3.42816 2.79313C3.25216 2.61713 2.96766 2.61713 2.79216 2.79313C2.61616 2.96863 2.61616 3.25363 2.79216 3.42913L3.71266 4.35013Z" fill="url(#paint4_linear_761_365492)"/&gt;
+        &lt;path d="M11.1858 10.549C11.0098 10.373 10.7253 10.373 10.5498 10.549C10.3743 10.725 10.3738 11.01 10.5498 11.1855L11.4708 12.1065C11.5588 12.1945 11.6738 12.2385 11.7888 12.2385C11.9038 12.2385 12.0188 12.1945 12.1068 12.1065C12.2828 11.9305 12.2828 11.6455 12.1068 11.47L11.1858 10.549Z" fill="url(#paint5_linear_761_365492)"/&gt;
+        &lt;path d="M11.471 2.7932L10.55 3.7137C10.374 3.8892 10.374 4.1742 10.55 4.3497C10.638 4.4377 10.753 4.4817 10.868 4.4817C10.983 4.4817 11.098 4.4377 11.186 4.3497L12.107 3.4287C12.283 3.2532 12.283 2.9682 12.107 2.7927C11.9315 2.6172 11.647 2.6172 11.471 2.7932Z" fill="url(#paint6_linear_761_365492)"/&gt;
+        &lt;path d="M3.71316 10.5493L2.79216 11.4703C2.61616 11.6463 2.61616 11.9313 2.79216 12.1068C2.88016 12.1948 2.99516 12.2388 3.11016 12.2388C3.22516 12.2388 3.34016 12.1948 3.42816 12.1068L4.34966 11.1863C4.52566 11.0103 4.52566 10.7253 4.34966 10.5498C4.17366 10.3743 3.88916 10.3738 3.71316 10.5493Z" fill="url(#paint7_linear_761_365492)"/&gt;
+        &lt;path d="M11.6739 7.65595L10.2339 8.51745C9.52991 8.93895 8.94091 9.52795 8.51941 10.232L7.65791 11.672C7.56491 11.8275 7.33891 11.8275 7.24591 11.672L6.38441 10.232C5.96291 9.52795 5.37391 8.93895 4.66991 8.51745L3.22991 7.65595C3.07441 7.56295 3.07441 7.33695 3.22991 7.24395L4.66991 6.38245C5.37391 5.96095 5.96291 5.37195 6.38441 4.66795L7.24591 3.22795C7.33891 3.07245 7.56491 3.07245 7.65791 3.22795L8.51941 4.66795C8.94091 5.37195 9.52991 5.96095 10.2339 6.38245L11.6739 7.24395C11.8299 7.33695 11.8299 7.56295 11.6739 7.65595Z" fill="url(#paint8_linear_761_365492)"/&gt;
+        &lt;defs&gt;
+            &lt;linearGradient id="paint0_linear_761_365492" x1="7.45" y1="0" x2="7.45" y2="1.598" gradientUnits="userSpaceOnUse"&gt;
+                &lt;stop stopColor="#F8F8F8" stopOpacity="0.9"/&gt;
+                &lt;stop offset="1" stopColor="#F8F8F8" stopOpacity="0.3"/&gt;
+            &lt;/linearGradient&gt;
+            &lt;linearGradient id="paint1_linear_761_365492" x1="7.45" y1="13.3018" x2="7.45" y2="14.8998" gradientUnits="userSpaceOnUse"&gt;
+                &lt;stop stopColor="#F8F8F8" stopOpacity="0.9"/&gt;
+                &lt;stop offset="1" stopColor="#F8F8F8" stopOpacity="0.3"/&gt;
+            &lt;/linearGradient&gt;
+            &lt;linearGradient id="paint2_linear_761_365492" x1="14.0998" y1="7" x2="14.0998" y2="7.9" gradientUnits="userSpaceOnUse"&gt;
+                &lt;stop stopColor="#F8F8F8" stopOpacity="0.9"/&gt;
+                &lt;stop offset="1" stopColor="#F8F8F8" stopOpacity="0.3"/&gt;
+            &lt;/linearGradient&gt;
+            &lt;linearGradient id="paint3_linear_761_365492" x1="0.799" y1="7" x2="0.799" y2="7.9" gradientUnits="userSpaceOnUse"&gt;
+                &lt;stop stopColor="#F8F8F8" stopOpacity="0.9"/&gt;
+                &lt;stop offset="1" stopColor="#F8F8F8" stopOpacity="0.3"/&gt;
+            &lt;/linearGradient&gt;
+            &lt;linearGradient id="paint4_linear_761_365492" x1="3.57066" y1="2.66113" x2="3.57066" y2="4.48213" gradientUnits="userSpaceOnUse"&gt;
+                &lt;stop stopColor="#F8F8F8" stopOpacity="0.9"/&gt;
+                &lt;stop offset="1" stopColor="#F8F8F8" stopOpacity="0.3"/&gt;
+            &lt;/linearGradient&gt;
+            &lt;linearGradient id="paint5_linear_761_365492" x1="11.3284" y1="10.417" x2="11.3284" y2="12.2385" gradientUnits="userSpaceOnUse"&gt;
+                &lt;stop stopColor="#F8F8F8" stopOpacity="0.9"/&gt;
+                &lt;stop offset="1" stopColor="#F8F8F8" stopOpacity="0.3"/&gt;
+            &lt;/linearGradient&gt;
+            &lt;linearGradient id="paint6_linear_761_365492" x1="11.3285" y1="2.66113" x2="11.3285" y2="4.4817" gradientUnits="userSpaceOnUse"&gt;
+                &lt;stop stopColor="#F8F8F8" stopOpacity="0.9"/&gt;
+                &lt;stop offset="1" stopColor="#F8F8F8" stopOpacity="0.3"/&gt;
+            &lt;/linearGradient&gt;
+            &lt;linearGradient id="paint7_linear_761_365492" x1="3.57091" y1="10.418" x2="3.57091" y2="12.2388" gradientUnits="userSpaceOnUse"&gt;
+                &lt;stop stopColor="#F8F8F8" stopOpacity="0.9"/&gt;
+                &lt;stop offset="1" stopColor="#F8F8F8" stopOpacity="0.3"/&gt;
+            &lt;/linearGradient&gt;
+            &lt;linearGradient id="paint8_linear_761_365492" x1="7.45209" y1="3.11133" x2="7.45209" y2="11.7886" gradientUnits="userSpaceOnUse"&gt;
+                &lt;stop stopColor="#F8F8F8" stopOpacity="0.9"/&gt;
+                &lt;stop offset="1" stopColor="#F8F8F8" stopOpacity="0.3"/&gt;
+            &lt;/linearGradient&gt;
+        &lt;/defs&gt;
+    &lt;/svg&gt;
+&nbsp;
+  );
+};
+&nbsp;
+export default EffectsTooltipIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

@@ -1,0 +1,163 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/AvatarVoiceIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> AvatarVoiceIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>0/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>0/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line low'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import ICON_SIZE from 'components/Icons/IconSize';
+import PropTypes from 'prop-types';
+&nbsp;
+const AvatarVoiceIcon = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >({</span> size = <span class="branch-0 cbranch-no" title="branch not covered" >'14',</span> color = <span class="branch-0 cbranch-no" title="branch not covered" >"#B6B7BB"}</span>) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+      &lt;g clip-path="url(#clip0_43512_358020)"&gt;
+        &lt;path d="M10.0638 11.793C10.1688 11.793 10.2738 11.7529 10.3539 11.6729C11.7623 10.2645 11.7623 7.97285 10.3539 6.56445C10.1937 6.4043 9.93399 6.4043 9.77382 6.56445C9.61364 6.7246 9.61364 6.98431 9.77382 7.14448C10.8624 8.23305 10.8624 10.0043 9.77382 11.0928C9.61364 11.253 9.61364 11.5127 9.77382 11.6729C9.85391 11.7529 9.95888 11.793 10.0638 11.793Z" fill={color}/&gt;
+        &lt;path d="M8.52458 10.5278C8.62955 10.5278 8.73452 10.4877 8.81458 10.4076C9.52535 9.69684 9.52535 8.54035 8.81458 7.82959C8.65443 7.66944 8.39472 7.66944 8.23455 7.82959C8.07437 7.98974 8.07437 8.24944 8.23455 8.40962C8.62548 8.80055 8.62548 9.43667 8.23455 9.82757C8.07437 9.98772 8.07437 10.2474 8.23455 10.4076C8.31466 10.4877 8.41961 10.5278 8.52458 10.5278Z" fill={color}/&gt;
+        &lt;path d="M11.6057 13.024C11.7106 13.024 11.8156 12.984 11.8957 12.9039C13.9827 10.8169 13.9827 7.42102 11.8957 5.33398C11.7355 5.17383 11.4758 5.17383 11.3156 5.33398C11.1555 5.49413 11.1555 5.75384 11.3156 5.91402C13.0828 7.68122 13.0828 10.5567 11.3156 12.3239C11.1555 12.484 11.1555 12.7437 11.3156 12.9039C11.3957 12.984 11.5007 13.024 11.6057 13.024Z" fill={color}/&gt;
+        &lt;path d="M0.948071 14C1.10434 14 1.25361 13.9102 1.3221 13.7586L1.87509 12.5341C1.9609 12.3441 2.15173 12.2234 2.35935 12.2273C3.08756 12.24 3.98193 12.2535 4.43835 12.2445C4.92936 12.2348 5.21553 12.0263 5.36915 11.8531C5.58199 11.6132 5.67963 11.2855 5.64411 10.9303C5.62355 10.7244 5.67917 10.6543 5.78994 10.5147C5.87372 10.409 5.978 10.2776 6.02831 10.0904C6.10466 9.80623 5.99312 9.49648 5.74419 9.30131C5.73306 9.29261 5.72147 9.28444 5.70949 9.27689L4.88536 8.75848L6.11707 8.29119C6.12757 8.28719 6.13791 8.28276 6.14805 8.27795C6.44227 8.13773 6.60512 7.81618 6.54412 7.49604L6.38479 6.65963C6.36855 6.57437 6.38731 6.48846 6.43765 6.41772C6.48796 6.34696 6.56296 6.30105 6.64887 6.28842L7.45972 6.16923C7.68412 6.13619 7.87648 5.99434 7.97432 5.78978C8.07215 5.58525 8.06185 5.34646 7.94676 5.15112L6.40128 2.52785C6.16618 2.12882 6.07343 1.65669 6.14009 1.19838L6.24616 0.469242C6.27875 0.245081 6.1235 0.0369152 5.89931 0.00432184C5.67512 -0.0282715 5.46698 0.127012 5.43439 0.351173L5.32832 1.08031C5.23486 1.72288 5.36491 2.38484 5.69451 2.94426L7.13419 5.38797L6.52952 5.47686C6.22032 5.52236 5.9503 5.68765 5.76918 5.94228C5.58806 6.1969 5.52052 6.50618 5.57898 6.81314L5.72196 7.56374L4.33767 8.08893C4.0936 8.18151 3.92585 8.40039 3.89996 8.66018C3.87404 8.91997 3.99519 9.16771 4.21618 9.30672L5.20563 9.92911C5.18838 9.95306 5.16659 9.98054 5.14728 10.0049C5.00772 10.1808 4.77418 10.4752 4.82786 11.0119C4.8351 11.0842 4.83529 11.2188 4.75551 11.3088C4.67419 11.4004 4.52932 11.4222 4.42213 11.4243C3.97936 11.4331 3.0948 11.4198 2.3737 11.4071C1.83747 11.3988 1.3483 11.7076 1.1275 12.1965L0.574504 13.4209C0.481263 13.6274 0.573055 13.8703 0.779498 13.9636C0.834267 13.9883 0.891634 14 0.948071 14Z" fill={color}/&gt;
+      &lt;/g&gt;
+      &lt;defs&gt;
+        &lt;clipPath id="clip0_43512_358020"&gt;
+        &lt;rect width="14" height="14" fill="white" transform="matrix(-1 0 0 1 14 0)"/&gt;
+        &lt;/clipPath&gt;
+      &lt;/defs&gt;
+    &lt;/svg&gt;
+&nbsp;
+  );
+};
+<span class="cstat-no" title="statement not covered" >AvatarVoiceIcon.propTypes = {</span>
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  color: PropTypes.string,
+};
+export default AvatarVoiceIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

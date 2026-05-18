@@ -1,0 +1,154 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/CalendarIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> CalendarIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import ICON_SIZE from 'components/Icons/IconSize';
+import PropTypes from 'prop-types';
+&nbsp;
+const CalendarIcon = <span class="fstat-no" title="function not covered" >({</span> size = <span class="branch-0 cbranch-no" title="branch not covered" >'14',</span> color = <span class="branch-0 cbranch-no" title="branch not covered" >'rgba(255, 255, 255, 0.7)' </span>}) =&gt; {
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;svg width={size} height={size} viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+      &lt;path d="M12.3729 3.80012C12.3038 2.65059 11.3439 1.75 10.1879 1.75H9.62501V1.3125C9.62501 1.071 9.42901 0.875 9.18751 0.875C8.94601 0.875 8.75001 1.071 8.75001 1.3125V1.75H5.25001V1.3125C5.25001 1.071 5.05401 0.875 4.81251 0.875C4.57101 0.875 4.37501 1.071 4.37501 1.3125V1.75H3.81217C2.65585 1.75 1.69598 2.65059 1.62707 3.80012C1.49735 5.96225 1.49976 8.15544 1.63429 10.3187C1.70254 11.4172 2.58257 12.2972 3.68113 12.3655C4.7821 12.434 5.89095 12.4681 6.99979 12.4681C8.10842 12.4681 9.21748 12.434 10.3184 12.3655C11.417 12.2972 12.297 11.4172 12.3653 10.3187C12.5 8.15653 12.5024 5.96356 12.3729 3.80012ZM11.4923 10.2644C11.4511 10.9235 10.9233 11.4513 10.2644 11.4922C8.09835 11.6268 5.90167 11.6268 3.7356 11.4922C3.07651 11.4511 2.54867 10.9233 2.50776 10.2644C2.40429 8.60125 2.38307 6.92059 2.43842 5.25H11.5618C11.6169 6.92125 11.5957 8.60191 11.4923 10.2644ZM4.81251 3.5C5.05401 3.5 5.25001 3.304 5.25001 3.0625V2.625H8.75001V3.0625C8.75001 3.304 8.94601 3.5 9.18751 3.5C9.42901 3.5 9.62501 3.304 9.62501 3.0625V2.625H10.1879C10.8819 2.625 11.4581 3.16422 11.4995 3.85241C11.5098 4.02609 11.5141 4.20088 11.5227 4.375H2.47735C2.4861 4.20088 2.49026 4.02609 2.50054 3.85241C2.54188 3.16422 3.11785 2.625 3.81217 2.625H4.37501V3.0625C4.37501 3.304 4.57101 3.5 4.81251 3.5Z" fill={color}/&gt;
+      &lt;path d="M4.81232 7.875C5.17475 7.875 5.46857 7.58119 5.46857 7.21875C5.46857 6.85631 5.17475 6.5625 4.81232 6.5625C4.44988 6.5625 4.15607 6.85631 4.15607 7.21875C4.15607 7.58119 4.44988 7.875 4.81232 7.875Z" fill={color}/&gt;
+      &lt;path d="M6.99976 7.875C7.36219 7.875 7.65601 7.58119 7.65601 7.21875C7.65601 6.85631 7.36219 6.5625 6.99976 6.5625C6.63732 6.5625 6.34351 6.85631 6.34351 7.21875C6.34351 7.58119 6.63732 7.875 6.99976 7.875Z" fill={color}/&gt;
+      &lt;path d="M4.81232 10.0625C5.17475 10.0625 5.46857 9.76869 5.46857 9.40625C5.46857 9.04381 5.17475 8.75 4.81232 8.75C4.44988 8.75 4.15607 9.04381 4.15607 9.40625C4.15607 9.76869 4.44988 10.0625 4.81232 10.0625Z" fill={color}/&gt;
+      &lt;path d="M9.18726 7.875C9.54969 7.875 9.84351 7.58119 9.84351 7.21875C9.84351 6.85631 9.54969 6.5625 9.18726 6.5625C8.82482 6.5625 8.53101 6.85631 8.53101 7.21875C8.53101 7.58119 8.82482 7.875 9.18726 7.875Z" fill={color}/&gt;
+      &lt;path d="M9.18726 10.0625C9.54969 10.0625 9.84351 9.76869 9.84351 9.40625C9.84351 9.04381 9.54969 8.75 9.18726 8.75C8.82482 8.75 8.53101 9.04381 8.53101 9.40625C8.53101 9.76869 8.82482 10.0625 9.18726 10.0625Z" fill={color}/&gt;
+      &lt;path d="M6.99976 10.0625C7.36219 10.0625 7.65601 9.76869 7.65601 9.40625C7.65601 9.04381 7.36219 8.75 6.99976 8.75C6.63732 8.75 6.34351 9.04381 6.34351 9.40625C6.34351 9.76869 6.63732 10.0625 6.99976 10.0625Z" fill={color}/&gt;
+    &lt;/svg&gt;
+&nbsp;
+&nbsp;
+  );
+};
+CalendarIcon.propTypes = {
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  color: PropTypes.string,
+};
+export default CalendarIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

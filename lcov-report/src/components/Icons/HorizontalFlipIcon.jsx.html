@@ -1,0 +1,136 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/HorizontalFlipIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> HorizontalFlipIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import ICON_SIZE from 'components/Icons/IconSize';
+import PropTypes from 'prop-types';
+&nbsp;
+const HorizontalFlipIcon = <span class="fstat-no" title="function not covered" >({</span> size = <span class="branch-0 cbranch-no" title="branch not covered" >ICON_SIZE.EXTRA_SMALL,</span> color = <span class="branch-0 cbranch-no" title="branch not covered" >'white' </span>}) =&gt; {
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;svg width={size} height={size} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+      &lt;path d="M2.71875 3.44055V1.52055C2.71875 1.25543 2.93347 1.04055 3.19875 1.04055C3.46403 1.04055 3.67875 1.25543 3.67875 1.52055V2.25351C4.31603 1.63687 5.74835 0.560547 7.99875 0.560547C10.2491 0.560547 11.6815 1.63687 12.3188 2.25351V1.52055C12.3188 1.25543 12.5335 1.04055 12.7987 1.04055C13.064 1.04055 13.2788 1.25543 13.2788 1.52055V3.44055C13.2788 3.70567 13.064 3.92055 12.7987 3.92055H10.8787C10.6135 3.92055 10.3987 3.70567 10.3987 3.44055C10.3987 3.17543 10.6135 2.96055 10.8787 2.96055H11.6725C11.172 2.46807 9.95587 1.52055 7.99875 1.52055C6.04243 1.52055 4.82643 2.46727 4.32531 2.96055H5.11875C5.38403 2.96055 5.59875 3.17543 5.59875 3.44055C5.59875 3.70567 5.38403 3.92055 5.11875 3.92055H3.19875C2.93347 3.92055 2.71875 3.70567 2.71875 3.44055Z" fill={color}/&gt;
+      &lt;path fill-rule="evenodd" clip-rule="evenodd" d="M8.47708 4.46875L8.49848 4.46875C9.04028 4.46875 9.47748 4.46875 9.83142 4.49768C10.1958 4.52742 10.5159 4.59035 10.8121 4.74122C11.2825 4.98095 11.6649 5.36335 11.9046 5.83375C12.0555 6.12995 12.1184 6.45002 12.1482 6.81442C12.1771 7.16835 12.1771 7.60548 12.1771 8.14735L12.1771 8.16875L12.1771 11.7687L12.1771 11.7902C12.1771 12.332 12.1771 12.7691 12.1482 13.1231C12.1184 13.4875 12.0555 13.8076 11.9046 14.1037C11.6649 14.5741 11.2825 14.9566 10.8121 15.1963C10.5159 15.3472 10.1958 15.4101 9.83142 15.4398C9.47748 15.4688 9.04042 15.4688 8.49848 15.4687L8.47708 15.4687L7.54375 15.4687L7.52235 15.4687C6.98042 15.4688 6.54335 15.4688 6.18942 15.4398C5.82502 15.4101 5.50495 15.3472 5.20875 15.1963C4.73835 14.9566 4.35595 14.5741 4.11624 14.1037C3.96534 13.8076 3.90244 13.4875 3.87266 13.1231C3.84374 12.7691 3.84374 12.3321 3.84375 11.7902L3.84375 11.7687L3.84375 8.16875L3.84375 8.14735C3.84374 7.60548 3.84374 7.16835 3.87266 6.81442C3.90244 6.45002 3.96534 6.12995 4.11623 5.83375C4.35595 5.36335 4.73835 4.98095 5.20875 4.74122C5.50495 4.59035 5.82502 4.52742 6.18942 4.49768C6.54335 4.46875 6.98048 4.46875 7.52235 4.46875L7.54375 4.46875L8.47708 4.46875ZM10.3581 5.63222C10.2264 5.56515 10.0526 5.51908 9.74995 5.49435C9.44155 5.46915 9.04542 5.46875 8.47708 5.46875L7.54375 5.46875C6.97542 5.46875 6.57928 5.46915 6.27088 5.49435C5.96828 5.51908 5.79442 5.56515 5.66275 5.63222C5.38055 5.77608 5.15102 6.00555 5.00722 6.28775C4.94015 6.41942 4.89408 6.59328 4.86935 6.89588C4.84415 7.20428 4.84375 7.60042 4.84375 8.16875L4.84375 11.7687C4.84375 12.3371 4.84415 12.7332 4.86935 13.0416C4.89408 13.3442 4.94015 13.5181 5.00722 13.6497C5.15102 13.932 5.38055 14.1614 5.66275 14.3053C5.79442 14.3724 5.96828 14.4184 6.27088 14.4432C6.57928 14.4684 6.97542 14.4687 7.54375 14.4687L8.47708 14.4687C9.04542 14.4687 9.44155 14.4684 9.74995 14.4432C10.0526 14.4184 10.2264 14.3723 10.3581 14.3053C10.6403 14.1614 10.8698 13.932 11.0136 13.6497C11.0807 13.5181 11.1268 13.3442 11.1515 13.0416C11.1767 12.7332 11.1771 12.337 11.1771 11.7687L11.1771 8.16875C11.1771 7.60042 11.1767 7.20428 11.1515 6.89588C11.1268 6.59328 11.0807 6.41942 11.0136 6.28775C10.8698 6.00555 10.6403 5.77608 10.3581 5.63222Z" fill={color}/&gt;
+    &lt;/svg&gt;
+&nbsp;
+  );
+};
+HorizontalFlipIcon.propTypes = {
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  color: PropTypes.string,
+};
+export default HorizontalFlipIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

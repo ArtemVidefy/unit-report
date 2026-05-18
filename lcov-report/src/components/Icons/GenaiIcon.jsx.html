@@ -1,0 +1,154 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/GenaiIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> GenaiIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import ICON_SIZE from 'components/Icons/IconSize';
+import PropTypes from 'prop-types';
+&nbsp;
+const GenaiIcon = <span class="fstat-no" title="function not covered" >({</span>
+  size = <span class="branch-0 cbranch-no" title="branch not covered" >'51',</span>
+  color = <span class="branch-0 cbranch-no" title="branch not covered" >'#35F006',</span>
+}) =&gt; {
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;svg width={size} height={size} viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+      &lt;path d="M20.938 11.7117L22.2027 15.2239C23.6076 19.1221 26.6773 22.1917 30.5754 23.5966L34.0877 24.8614C34.4043 24.9763 34.4043 25.4252 34.0877 25.5386L30.5754 26.8033C26.6773 28.2082 23.6076 31.2779 22.2027 35.176L20.938 38.6883C20.823 39.0049 20.3742 39.0049 20.2608 38.6883L18.996 35.176C17.5911 31.2779 14.5215 28.2082 10.6233 26.8033L7.11109 25.5386C6.79451 25.4236 6.79451 24.9748 7.11109 24.8614L10.6233 23.5966C14.5215 22.1917 17.5911 19.1221 18.996 15.2239L20.2608 11.7117C20.3742 11.3935 20.823 11.3935 20.938 11.7117Z" fill={color}/&gt;
+      &lt;path d="M36.7478 3.2712L37.3888 5.04938C38.1007 7.02286 39.6553 8.57738 41.6287 9.28928L43.4069 9.9303C43.5676 9.98858 43.5676 10.2154 43.4069 10.2737L41.6287 10.9147C39.6553 11.6266 38.1007 13.1811 37.3888 15.1546L36.7478 16.9328C36.6895 17.0934 36.4627 17.0934 36.4045 16.9328L35.7634 15.1546C35.0515 13.1811 33.497 11.6266 31.5235 10.9147L29.7454 10.2737C29.5847 10.2154 29.5847 9.98858 29.7454 9.9303L31.5235 9.28928C33.497 8.57738 35.0515 7.02286 35.7634 5.04938L36.4045 3.2712C36.4627 3.10898 36.6911 3.10898 36.7478 3.2712Z" fill={color}/&gt;
+      &lt;path d="M36.7478 33.4686L37.3888 35.2468C38.1007 37.2203 39.6553 38.7748 41.6287 39.4867L43.4069 40.1277C43.5676 40.186 43.5676 40.4128 43.4069 40.4711L41.6287 41.1121C39.6553 41.824 38.1007 43.3785 37.3888 45.352L36.7478 47.1302C36.6895 47.2908 36.4627 47.2908 36.4045 47.1302L35.7634 45.352C35.0515 43.3785 33.497 41.824 31.5235 41.1121L29.7454 40.4711C29.5847 40.4128 29.5847 40.186 29.7454 40.1277L31.5235 39.4867C33.497 38.7748 35.0515 37.2203 35.7634 35.2468L36.4045 33.4686C36.4627 33.308 36.6911 33.308 36.7478 33.4686Z" fill={color}/&gt;
+    &lt;/svg&gt;
+&nbsp;
+  );
+};
+&nbsp;
+GenaiIcon.propTypes = {
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  color: PropTypes.string,
+};
+&nbsp;
+export default GenaiIcon;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

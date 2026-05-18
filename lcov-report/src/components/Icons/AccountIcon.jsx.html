@@ -1,0 +1,136 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/components/Icons/AccountIcon.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/Icons</a> AccountIcon.jsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">66.66% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>2/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import ICON_SIZE from 'components/Icons/IconSize';
+import PropTypes from 'prop-types';
+&nbsp;
+const AccountIcon = <span class="fstat-no" title="function not covered" >({</span> size = <span class="branch-0 cbranch-no" title="branch not covered" >'12',</span> color = <span class="branch-0 cbranch-no" title="branch not covered" >'rgba(255,255,255,0.6)' </span>}) =&gt; {
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;svg width={size} height={size} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+      &lt;path d="M6 1.5C5.55499 1.5 5.11998 1.63196 4.74997 1.87919C4.37996 2.12643 4.09157 2.47783 3.92127 2.88896C3.75097 3.3001 3.70642 3.7525 3.79323 4.18895C3.88005 4.62541 4.09434 5.02632 4.40901 5.34099C4.72368 5.65566 5.12459 5.86995 5.56105 5.95677C5.99751 6.04358 6.4499 5.99903 6.86104 5.82873C7.27217 5.65843 7.62357 5.37004 7.87081 5.00003C8.11804 4.63002 8.25 4.19501 8.25 3.75C8.25 3.15326 8.01295 2.58097 7.59099 2.15901C7.16903 1.73705 6.59674 1.5 6 1.5ZM6 5.35714C5.68214 5.35714 5.37141 5.26289 5.10712 5.08629C4.84283 4.9097 4.63684 4.65869 4.51519 4.36503C4.39355 4.07136 4.36173 3.74822 4.42374 3.43646C4.48575 3.12471 4.63882 2.83834 4.86358 2.61358C5.08834 2.38882 5.37471 2.23575 5.68646 2.17374C5.99822 2.11173 6.32136 2.14355 6.61503 2.26519C6.9087 2.38683 7.1597 2.59283 7.33629 2.85712C7.51289 3.12141 7.60714 3.43214 7.60714 3.75C7.60714 3.96105 7.56557 4.17004 7.48481 4.36503C7.40404 4.56001 7.28566 4.73718 7.13642 4.88642C6.98719 5.03566 6.81002 5.15404 6.61503 5.23481C6.42004 5.31557 6.21105 5.35714 6 5.35714Z" fill={color}/&gt;
+      &lt;path d="M7.66179 6.64258H4.33821C3.58573 6.64343 2.86432 6.94273 2.33223 7.47481C1.80015 8.0069 1.50085 8.72831 1.5 9.48079C1.5 9.75103 1.60735 10.0102 1.79844 10.2013C1.98952 10.3924 2.24869 10.4997 2.51893 10.4997H9.48107C9.75131 10.4997 10.0105 10.3924 10.2016 10.2013C10.3926 10.0102 10.5 9.75103 10.5 9.48079C10.4991 8.72831 10.1999 8.0069 9.66777 7.47481C9.13568 6.94273 8.41427 6.64343 7.66179 6.64258ZM9.48107 9.85686H2.51893C2.41919 9.85686 2.32353 9.81724 2.25301 9.74671C2.18248 9.67619 2.14286 9.58053 2.14286 9.48079C2.14286 8.89855 2.37415 8.34015 2.78586 7.92844C3.19757 7.51673 3.75597 7.28544 4.33821 7.28544H7.66179C8.24403 7.28544 8.80243 7.51673 9.21414 7.92844C9.62585 8.34015 9.85714 8.89855 9.85714 9.48079C9.85714 9.58053 9.81752 9.67619 9.74699 9.74671C9.67647 9.81724 9.58081 9.85686 9.48107 9.85686Z" fill={color}/&gt;
+    &lt;/svg&gt;
+&nbsp;
+&nbsp;
+  );
+};
+AccountIcon.propTypes = {
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  color: PropTypes.string,
+};
+export default AccountIcon;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

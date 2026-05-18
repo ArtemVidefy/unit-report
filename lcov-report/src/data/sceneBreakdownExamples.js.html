@@ -1,0 +1,538 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/data/sceneBreakdownExamples.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/data</a> sceneBreakdownExamples.js</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a>
+<a name='L113'></a><a href='#L113'>113</a>
+<a name='L114'></a><a href='#L114'>114</a>
+<a name='L115'></a><a href='#L115'>115</a>
+<a name='L116'></a><a href='#L116'>116</a>
+<a name='L117'></a><a href='#L117'>117</a>
+<a name='L118'></a><a href='#L118'>118</a>
+<a name='L119'></a><a href='#L119'>119</a>
+<a name='L120'></a><a href='#L120'>120</a>
+<a name='L121'></a><a href='#L121'>121</a>
+<a name='L122'></a><a href='#L122'>122</a>
+<a name='L123'></a><a href='#L123'>123</a>
+<a name='L124'></a><a href='#L124'>124</a>
+<a name='L125'></a><a href='#L125'>125</a>
+<a name='L126'></a><a href='#L126'>126</a>
+<a name='L127'></a><a href='#L127'>127</a>
+<a name='L128'></a><a href='#L128'>128</a>
+<a name='L129'></a><a href='#L129'>129</a>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a>
+<a name='L134'></a><a href='#L134'>134</a>
+<a name='L135'></a><a href='#L135'>135</a>
+<a name='L136'></a><a href='#L136'>136</a>
+<a name='L137'></a><a href='#L137'>137</a>
+<a name='L138'></a><a href='#L138'>138</a>
+<a name='L139'></a><a href='#L139'>139</a>
+<a name='L140'></a><a href='#L140'>140</a>
+<a name='L141'></a><a href='#L141'>141</a>
+<a name='L142'></a><a href='#L142'>142</a>
+<a name='L143'></a><a href='#L143'>143</a>
+<a name='L144'></a><a href='#L144'>144</a>
+<a name='L145'></a><a href='#L145'>145</a>
+<a name='L146'></a><a href='#L146'>146</a>
+<a name='L147'></a><a href='#L147'>147</a>
+<a name='L148'></a><a href='#L148'>148</a>
+<a name='L149'></a><a href='#L149'>149</a>
+<a name='L150'></a><a href='#L150'>150</a>
+<a name='L151'></a><a href='#L151'>151</a>
+<a name='L152'></a><a href='#L152'>152</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export const sceneBreakdownExamples = [
+  {
+    "id": 1,
+    "name": "Every Big Change",
+    "type": "Motivational",
+    "description": `Scene 1\nVoiceover script: Change begins quietly.\nIllustration: A soft-lit room at dawn, a lone figure standing still near a window, gentle rays cutting through dust particles, atmosphere calm and introspective.\n\nScene 2\nVoiceover script: Before anyone notices.\nIllustration: Extreme close-up of thoughtful eyes reflecting warm morning light, subtle shadow on the cheek, background softly blurred.\n\nScene 3\nVoiceover script: One private decision.\nIllustration: Tight shot of fingers slowly clenching with resolve, warm reflections on the skin, background fading into soft bokeh.\n\nScene 4\nVoiceover script: To try again.\nIllustration: A slow, deep inhale — chest rising, soft backlight outlining the figure with a faint glow, mood hopeful and steady.\n\nScene 5\nVoiceover script: To rise again.\nIllustration: First step forward into brighter light, floor catching reflections, the shift in brightness symbolizing renewal.\n\nScene 6\nVoiceover script: To believe again.\nIllustration: Close-up of a subtle, emerging smile, rim light across the face, gentle contrast between shadow and illumination.\n\nScene 7\nVoiceover script: No permission needed.\nIllustration: Hand sweeping aside scattered papers or objects on a desk, decisive motion blur, energy of taking control.\n\nScene 8\nVoiceover script: No perfect moment.\nIllustration: Dynamic side angle of the figure walking through a cluttered environment — imperfect but full of motion and intention.\n\nScene 9\nVoiceover script: Just honesty.\nIllustration: Hand pressed firmly against the chest, warm sunlight illuminating the gesture, emotional clarity in the pose.\n\nScene 10\nVoiceover script: Growth over comfort.\nIllustration: Pathway ahead glowing brighter, soft ambient light stretching forward, symbolizing direction and purpose.\n\nScene 11\nVoiceover script: Everything shifts.\nIllustration: Dramatic dolly-out revealing expanding open space — horizon widening, wind gently moving clothing and hair.\n\nScene 12\nVoiceover script: Keep moving.\nIllustration: Side-profile walking shot with motion blur on the background, crisp silhouette, glowing edges of light tracing the figure’s outline.\n\nScene 13\nVoiceover script: The future follows.\nIllustration: Footsteps leaving glowing imprints that fade slowly behind, path visually forming as they move.\n\nScene 14\nVoiceover script: Around your steps.\nIllustration: Environment dynamically building around the figure — soft geometric shapes, buildings, and light streaks emerging as if responding to their movement.`
+  },
+  {
+    id: 2,
+    name: "Fear Is Just Fog",
+    type: "Motivational",
+    description: "Scene 1\nVoiceover script: Fear whispers quietly.\nIllustration: Close-up of a young adult man (28–32), short dark hair, warm brown skin, sitting alone in a dim room. A thin line of cool blue light crosses his face. His expression is tense, eyes lowered, as if listening to an inner voice.\n\nScene 2\nVoiceover script: “You’re not ready.”\nIllustration: Over-the-shoulder shot of the same man facing a fog-filled hallway. Soft, ghost-like text saying “Not ready” swirls faintly in the air. Fog is semi-transparent, symbolic, drifting around him.\n\nScene 3\nVoiceover script: “Wait for perfect.”\nIllustration: POV shot looking at a wall calendar with endless crossed-out dates. Behind him, a blurred shadowy silhouette represents fear — featureless, whispering presence.\n\nScene 4\nVoiceover script: Nothing changes.\nIllustration: The man stands frozen in the hallway. Fog thickens around his legs. The world feels paused; colors are muted greys and pale blues.\n\nScene 5\nVoiceover script: Until one step.\nIllustration: Close-up on his foot making a small forward step. Fog parts slightly at the impact. Warm golden light begins to appear ahead.\n\nScene 6\nVoiceover script: A tiny step.\nIllustration: Side shot of his leg moving, body tense but determined. Wearing a dark hoodie and jeans. A stronger golden glow emerges from the right side.\n\nScene 7\nVoiceover script: Through the fog.\nIllustration: Medium shot of him walking into dense symbolic fog. Swirling strokes around him. His silhouette becomes sharper as he advances.\n\nScene 8\nVoiceover script: It’s not a wall.\nIllustration: He reaches out to touch the fog. It ripples and melts under his fingertips."
+   },
+  {
+    id: 3,
+    name: "How Habits Shape Us",
+    type: "Explainer",
+    description: `Scene 1\nVoiceover script: Habits start as tiny repeated actions.\nIllustration: Close-up of a young woman (25–30), medium brown skin, curly tied-back hair, sitting at a desk in soft morning light. A small notebook lies open in front of her, pen resting lightly in her hand. Warm light fills the room, calm and peaceful.\n\nScene 2\nVoiceover script: The brain learns what we repeat.\nIllustration: Macro shot of her fingers tapping a pen rhythmically on the notebook. A subtle visual overlay of faint glowing neural lines appears above the page—symbolic, softly animated.\n\nScene 3\nVoiceover script: Familiarity becomes the brain's comfort zone.\nIllustration: She sits in a quiet kitchen, sipping tea, the same small habit every morning. Steam rises gently. Lighting warm and domestic. Her posture is relaxed, routine-like.\n\nScene 4\nVoiceover script: That's why old habits cling tightly.\nIllustration: Split-screen visual—left side shows her reaching automatically for her phone; right side shows a glowing loop illustrating the "habit cycle." Colors muted and symbolic.\n\nScene 5\nVoiceover script: And why new habits feel uncomfortable.\nIllustration: The woman tries writing a new daily goal in her notebook. Her face shows mild tension. Background cool-toned, representing novelty and discomfort.\n\nScene 6\nVoiceover script: The brain resists change at first.\nIllustration: Side profile close-up: slight furrow in her brow, hesitating before taking an action. Soft symbolic neural fog around her head, shifting in color from blue to gold.\n\nScene 7\nVoiceover script: But repetition rewires your identity.\nIllustration: Overhead shot of her writing the same goal every day on a calendar—day after day forming a pattern. Warm golden lighting strengthens as the repetition increases.\n\nScene 8\nVoiceover script: Small wins build stronger pathways.\nIllustration: Close-up of her hand checking off a completed task. The "check" glows softly, symbolic golden lines branching outward like neural growth.\n\nScene 9\nVoiceover script: Pathways shape who we become.\nIllustration: She practices a simple daily routine—writing, stretching, preparing a healthy meal. Calm medium shots showing stability, rhythm, and intention.\n\nScene 10\nVoiceover script: Change grows from consistency.\nIllustration: Wide living-room shot of the woman standing tall near a bright window. Morning sunlight floods the space. She looks more confident, grounded, centered.\n\nScene 11\nVoiceover script: Identity grows from small steps.\nIllustration: She closes her notebook gently, soft smile on her face. The camera moves outward revealing a serene, organized environment—symbol of internal clarity.\n\nScene 12\nVoiceover script: Start small. Stay steady.\nIllustration: Final aesthetic shot—woman walking outside into warm sunrise light, carrying her notebook. Gentle breeze, golden tones, hopeful emotional tone.`
+  },
+  {
+    id: 4,
+    name: "Our Organization's Story",
+    type: "Corporate",
+    description: `Scene 1\nVoiceover script: Every organization has a story.\nIllustration: Wide shot of a modern office environment. A diverse group of employees moves with calm focus. Warm natural light enters through large windows. The tone is sophisticated, clean, and aspirational.\n\nScene 2\nVoiceover script: Ours begins with a belief.\nIllustration: Close-up of a middle-aged woman (40–45), CEO figure, sharp eyes, confident posture. She stands near a glass wall with project notes behind her. Lighting highlights clarity and vision.\n\nScene 3\nVoiceover script: Great teams deserve clarity.\nIllustration: A team of three—one man (30s), one woman (20s), one non-binary person (30s)—collaborating around a sleek digital whiteboard. Expressions focused but excited. Interfaces glowing lightly.\n\nScene 4\nVoiceover script: Tools should remove friction—not add it.\nIllustration: Hands interacting with a clean, futuristic workspace dashboard on a transparent screen. Smooth UI lines, minimal colors, soft blue highlights conveying fluidity.\n\nScene 5\nVoiceover script: Work should feel purposeful.\nIllustration: Medium shot of a young man (25–30) presenting an idea to colleagues. Subtle depth-of-field blur behind him. His posture confident but warm, conveying culture and purpose.\n\nScene 6\nVoiceover script: Collaboration should feel natural.\nIllustration: Overhead shot of four team members leaning over a table with sketches, tablets, and notes. Their body language is open and connected. Atmosphere energized.\n\nScene 7\nVoiceover script: Innovation is our engine.\nIllustration: Cinematic shot inside a brainstorming room with sticky notes, prototypes, and holographic interface elements. A female engineer (30s) points at a glowing concept diagram.\n\nScene 8\nVoiceover script: But people define our journey.\nIllustration: Portrait-style shot of an employee smiling warmly, holding a laptop close to the chest. Background softly blurred with warm tones. Feels human, authentic, approachable.\n\nScene 9\nVoiceover script: Every problem we solve reflects someone we serve.\nIllustration: A customer support specialist (male, mid-20s) on a video call helping a client. Subtle holographic interface overlays show data, tasks, and insights. Lighting soft and human.\n\nScene 10\nVoiceover script: This is where ambition meets execution.\nIllustration: Wide cinematic shot: the entire team gathered around a long table, reviewing progress on large wall screens. The room feels high-tech but grounded. A sense of forward momentum.\n\nScene 11\nVoiceover script: And this is only the beginning.\nIllustration: Final hopeful shot: the building exterior at sunrise, warm light reflecting on glass. Employees seen through windows starting their day—symbol of growth, vision, and the journey ahead.`
+  },
+  {
+    id: 5,
+    name: "The New Way to Work",
+    type: "Corporate",
+    description: `Scene 1\nVoiceover script: This is the new way to work.\nIllustration: Wide shot of a sleek modern workspace with large screens, soft ambient lighting, and a transparent digital dashboard projected in the air. A diverse team moves with focus and calm efficiency. The palette is cool, futuristic, and minimal.\n\nScene 2\nVoiceover script: Everything in one place.\nIllustration: Cinematic close-up of a young woman (27–32), short dark hair, wearing a clean tech-casual outfit, interacting with a unified dashboard that blends tasks, messages, and data streams. Smooth UI animations glow softly around her fingers.\n\nScene 3\nVoiceover script: No more scattered tools.\nIllustration: Split-screen visual: on the left, cluttered screens and notifications; on the right, a unified clean interface. A symbolic transition softens and wipes away the chaos into clarity.\n\nScene 4\nVoiceover script: Nothing gets lost.\nIllustration: A man (30–35) quickly searches in the global search bar. Files, tasks, messages appear instantly as glowing cards in a clear grid. His face relaxes—relief and control.\n\nScene 5\nVoiceover script: Everything moves faster.\nIllustration: Medium shot of a workflow panel animating tasks across a timeline. He drags one item, and the whole system updates smoothly. Lighting brightens to emphasize speed.\n\nScene 6\nVoiceover script: Start with clarity.\nIllustration: Overhead shot of a woman (mid-20s) opening her morning dashboard. A clean "Today Overview" card floats in the center. Sunlight pours in from a nearby window, suggesting fresh focus.\n\nScene 7\nVoiceover script: Drill into details instantly.\nIllustration: A zoom-in transition into a task card showing subtasks, files, and comments. A subtle holographic effect highlights interconnected data. The user taps and windows expand seamlessly.\n\nScene 8\nVoiceover script: Automate what slows you down.\nIllustration: Robotic-like glowing lines travel between workflow steps, visually demonstrating automated triggers. A man (early 40s) watches as repetitive tasks complete themselves on-screen.\n\nScene 9\nVoiceover script: Simple. Powerful. Ready from day one.\nIllustration: A new employee (female, mid-20s, bright expression) sits at her laptop. The onboarding screen is welcoming, clean, and visually intuitive. She looks pleasantly surprised by the ease of use.\n\nScene 10\nVoiceover script: Work alone or with your whole team.\nIllustration: A video-call grid with diverse team members smiling and pointing at shared documents. Light UI elements float around the screen, showing collaboration highlights and comments.\n\nScene 11\nVoiceover script: This is productivity, finally clicking.\nIllustration: Cinematic wide shot of the office: people aligned, screens synchronized, tasks flowing across displays. Bright natural light and energized atmosphere convey harmony and momentum.\n\nScene 12\nVoiceover script: Welcome to the future of work.\nIllustration: Closing hero shot of the platform interface glowing across multiple floating screens. The background slowly fades into a clean gradient, representing a fresh, efficient era of productivity.`
+  },
+  {
+    id: 6,
+    name: "Quiet Actions Compound",
+    type: "Motivational",
+    description: `Scene 1\nVoiceover script: Success rarely comes from big leaps.\nIllustration: Wide serene morning shot of a young man (25–30), medium-length dark hair, light brown skin, sitting at a desk lit by soft sunrise light. Papers, a journal, and a steaming mug form a calm workspace around him.\n\nScene 2\nVoiceover script: It grows from tiny invisible actions.\nIllustration: Close-up of his hand writing a single line in a journal. Warm sunlight brushes across the page. The pen glides slowly, showing intention and consistency.\n\nScene 3\nVoiceover script: The ones no one claps for.\nIllustration: Side-angle shot of the man practicing quietly—reviewing notes alone in a peaceful room. His posture is steady but humble, environment simple and uncluttered.\n\nScene 4\nVoiceover script: Waking up early.\nIllustration: Alarm clock at 5:58 AM. A hand gently switches it off before it rings. Warm golden rim light outlines his silhouette rising from bed.\n\nScene 5\nVoiceover script: Showing up when you’re tired.\nIllustration: Medium shot of him stretching slightly fatigued shoulders at a workspace. Evening light replaces morning glow, showing effort across time.\n\nScene 6\nVoiceover script: Improving by one percent.\nIllustration: Split-screen view of a skill progression—left side early messy attempts, right side cleaner improved versions. Soft glowing lines represent small growth.\n\nScene 7\nVoiceover script: These quiet moments compound.\nIllustration: Visual metaphor: small golden dots growing into branching paths like neural networks or roots strengthening over time. The man’s face appears subtly in the background observing progress.\n\nScene 8\nVoiceover script: Until the world calls it ‘overnight success.’\nIllustration: A brighter scene—man presenting confidently in front of a small audience. Subtle depth-of-field blur shows focus and importance. Audience expressions impressed.\n\nScene 9\nVoiceover script: But you know the truth.\nIllustration: Close-up on his calm, grounded smile. Light reflects in his eyes—symbolizing awareness of the long unseen journey.\n\nScene 10\nVoiceover script: You built this quietly.\nIllustration: Montage-like frame: journal pages filled, tasks checked, practice sessions shown in reflections on different surfaces. Warm cinematic tones emphasize reflection.\n\nScene 11\nVoiceover script: Brick by brick.\nIllustration: Symbolic shot of golden bricks forming steps upward. The man steps onto the first one, showing deliberate, humble progress.\n\nScene 12\nVoiceover script: Day by day.\nIllustration: Time-lapse style sequence—sunlight shifting across a room as he works gently through different times of day. Calm, rhythmic, composed visuals.\n\nScene 13\nVoiceover script: Keep going. It’s working.\nIllustration: Final wide emotional shot: the man walking into bright open daylight outside his building, posture tall, light breeze, confident stride—symbolizing momentum built through quiet consistency.`
+  },
+  {
+    id: 7,
+    name: "Sarah &amp; James",
+    type: "Storytelling",
+    description: `Scene 1\nVoiceover script: “Why are you giving up?” Sarah asked softly.\nIllustration: Interior shot of a quiet living room in warm evening light. Sarah (28–32, soft brown hair, light skin, gentle eyes) sits on the edge of a couch, body turned slightly toward James with concern. Her posture is open, empathetic.\n\nScene 2\nVoiceover script: James looked down, avoiding her eyes.\nIllustration: Close-up of James (30–35, light skin, medium-dark hair) sitting forward with elbows on knees. Hands loosely clasped. Face tense, eyes lowered. Soft shadows deepen the emotional weight.\n\nScene 3\nVoiceover script: “Nothing I do seems to work,” he said.\nIllustration: Side-angle shot of James speaking quietly. Background blurred. A faint symbolic overlay—crumpled papers, unfinished tasks—floating softly to represent internal struggle.\n\nScene 4\nVoiceover script: Sarah gently shook her head.\nIllustration: Medium shot of Sarah leaning slightly forward, calm expression, warm light outlining her silhouette. Her eyes are kind, steady, reassuring.\n\nScene 5\nVoiceover script: “You’re measuring results, not effort.”\nIllustration: Close-up on Sarah’s face. Her expression is soft yet firm, embodying insight. Golden light reflects in her eyes. Subtle symbolic icons—tiny steps, upward arrows—appear faintly behind her.\n\nScene 6\nVoiceover script: Growth isn’t winning. Growth is trying again.\nIllustration: Symbolic visual: James sitting while faint transparent duplicates of himself rise behind him, each one slightly taller, representing resilience. Sarah watches supportively.\n\nScene 7\nVoiceover script: Something shifted inside him.\nIllustration: Close-up of James lifting his eyes toward Sarah for the first time. His expression softens. Lighting brightens around his face to symbolize internal clarity.\n\nScene 8\nVoiceover script: “So you think I can do it?” he asked.\nIllustration: Over-the-shoulder shot from Sarah’s viewpoint. James looks vulnerable but hopeful. Focus on his eyes, reflecting warmth and uncertainty.\n\nScene 9\nVoiceover script: “You already are,” she said.\nIllustration: Sarah’s gentle smile fills the frame. Warm, almost golden tone around her face. She radiates calm, grounded confidence.\n\nScene 10\nVoiceover script: And for the first time, he believed her.\nIllustration: Final cinematic shot—James straightening his posture, shoulders relaxing, gaze lifting outward. Warm light gradually spreads through the room, symbolizing hope and renewed determination.`
+  },
+  {
+    id: 8,
+    name: "Start Before You're Ready",
+    type: "Motivational",
+    description: `Scene 1\nVoiceover script: If you wait for perfect timing, you’ll wait forever.\nIllustration: A young adult man (25–30), light brown skin, short textured hair, stands in front of a blank canvas wall. The room is softly lit. On the wall are faint ghostlike outlines of unfinished ideas—symbolic, dreamlike.\n\nScene 2\nVoiceover script: Start now—even messy, even unsure.\nIllustration: Close-up of his hand hovering over a keyboard, fingers trembling slightly with hesitation. Warm desk light illuminates scattered notes, coffee stains, and early rough drafts.\n\nScene 3\nVoiceover script: Everyone you admire began with zero clarity.\nIllustration: A montage-like symbolic scene with floating translucent images of famous creators’ early messy sketches, scribbles, and prototypes. The man stands in the center, surrounded by these imperfect beginnings.\n\nScene 4\nVoiceover script: And a lot of mistakes.\nIllustration: Wide shot of a workspace floor covered with crumpled papers, rejected drafts, undone tasks. The man steps over them—but the lighting is warm, not harsh, showing mistakes as natural stepping stones.\n\nScene 5\nVoiceover script: Progress comes from motion—not confidence.\nIllustration: The man begins typing rapidly. Dynamic motion blur around his hands as the screen lights up with flowing words. His posture becomes more engaged, energy rising.\n\nScene 6\n Voiceover script: And no one is judging you like you think.\nIllustration: Cinematic zoom-out showing the man working alone while imagined silhouettes in the background dissolve into dust—representing judgment fading away. Soft warm light surrounds him.\n\nScene 7\nVoiceover script: Post the video.\nIllustration: Close-up of the “Upload” button glowing on a screen. His finger moves toward it with a mix of fear and excitement. Ambient lighting shifts toward bright encouragement.\n\nScene 8\nVoiceover script: Launch the idea.\nIllustration: The man stands in front of a large digital board where his idea lights up in vibrant colors. The room brightens dramatically, signifying activation and momentum.\n\nScene 9\nVoiceover script: Try the thing you’ve been delaying.\n Illustration: Medium shot of him taking a step out the door—with symbolic icons representing projects, goals, and personal dreams swirling gently around him like floating light particles.\n\nScene 10\n Voiceover script: Your future self is begging you to begin.\n Illustration: Emotional wide shot: he sees a soft glowing silhouette of his future self in the distance—same age, same build, but confident, calm, standing in bright light. Hopeful, cinematic, inspiring.\n\nScene 11\nVoiceover script: Begin today.\nIllustration: Final hero shot: the man walks forward into radiant light, leaving behind the dark, cluttered space. The environment shifts gradually into brightness, symbolizing the path finally opening.`
+  },
+  {
+    id: 9,
+    name: "Kyoto in Slow Light",
+    type: "Travel",
+    description: `Scene 1\nVoiceover script: Kyoto felt like stepping into a dream.\nIllustration: Wide cinematic shot of early morning Kyoto streets. The traveler—a Japanese woman (26–32), shoulder-length dark hair, soft facial features—walks slowly past wooden machiya houses. Warm pale sunlight filters through, mist rising gently from stone paths.\n\nScene 2\nVoiceover script: Quiet streets. Warm light.\nIllustration: Close-up of her hand brushing along a wooden fence; golden beams of sunrise spread across aged wood. Dust particles float in slow motion, creating a soft, dreamlike texture.\n\nScene 3\nVoiceover script: Colors that moved slower than time.\nIllustration: The woman stands near a traditional shop with lanterns. Reds, oranges, and golds glow vividly against deep shadows. Her face is illuminated by the lantern light, eyes reflecting warm color gradients.\n\nScene 4\nVoiceover script: Every corner carried a story.\nIllustration: Over-the-shoulder shot of her approaching a narrow alley filled with tiny local signs, bicycles parked neatly, and soft steam rising from morning kitchens. The scene feels intimate and lived-in.\n\nScene 5\nVoiceover script: Temples at sunrise…\nIllustration: Wide shot of the traveler standing before a Shinto shrine. Soft rays of light pierce between tall torii gates. Her posture is calm, contemplative, hands loosely clasped in front of her.\n\nScene 6\nVoiceover script: Lanterns glowing at night.\nIllustration: Nighttime scene along Gion’s lantern-lined streets. The woman walks quietly, her silhouette outlined by red lanterns. Reflections shimmer across wet stones from a recent light rain.\n\nScene 7\nVoiceover script: I wasn’t just traveling.\nIllustration: Medium close-up of her pausing on a small bridge, looking over flowing water. Her expression is soft, introspective. Cherry blossom petals drift around her, catching soft ambient light.\n\nScene 8\nVoiceover script: I was remembering how to breathe.\nIllustration: Slow side shot: the traveler inhales deeply, eyes closed, standing beneath a cherry blossom tree. Blossoms fall behind her, light wind moving her hair gently. Background softly blurred.\n\nScene 9\nVoiceover script: Some places don’t change your life.\nIllustration: Wide static shot of Kyoto’s quiet riverbank at dusk. She sits alone on stone steps, watching boats drift slowly by. The sky fades from orange to soft purple.\n\nScene 10\nVoiceover script: They remind you of the life you wanted.\nIllustration: Close-up of her serene face illuminated by warm golden light from lanterns. Her eyes shine with clarity and calm, reflecting water and evening sky colors.\n\nScene 11\nVoiceover script: The life you wanted to live all along.\nIllustration: Final cinematic shot: the traveler walks forward across a softly lit bridge, Kyoto’s skyline gently glowing behind her. Cherry blossoms fall in slow motion as she moves into brighter, open light ahead.`
+  },
+  {
+    id: 10,
+    name: "Finding Clarity",
+    type: "Personal",
+    description: `Scene 1\nVoiceover script: A year ago, I felt lost.\nIllustration: A young woman (25–30, long dark hair, light skin) sits on her unmade bed surrounded by scattered notebooks. Early morning light cuts through the blinds.\n\nScene 2\nVoiceover script: Too many tasks. No direction.\nIllustration: Overhead shot of cluttered planners, sticky notes, apps, and half-finished lists. Her hands grip the edge of the bed, tension visible.\n\nScene 3\nVoiceover script: I kept trying everything.\nIllustration: Montage-style frame: different journals, time-blocking attempts, abandoned routines. Soft motion blur conveys frustration and chaos.\n\nScene 4\nVoiceover script: Nothing worked.\nIllustration: She leans back in her chair, exhaling sharply. Cool-toned room, dim light, symbolic shadows stretching long.\n\nScene 5\nVoiceover script: Until one system clicked.\nIllustration: She opens a clean, minimal digital planner glowing softly on her laptop. Her posture shifts—hope flickers.\n\nScene 6\nVoiceover script: Simple. Clear. Calm.\nIllustration: Close-up of her eyes reflecting the organized interface. The clutter behind her fades into subtle blur.\n\nScene 7\nVoiceover script: It showed my path.\nIllustration: Timeline view opens—smooth, color-coded, structured. Warm golden light illuminates the screen.\n\nScene 8\nVoiceover script: And my progress.\nIllustration: She checks off a small task. The checkmark pulses with a soft gold glow, symbolic positive reinforcement.\n\nScene 9\nVoiceover script: I felt lighter.\nIllustration: She works in a bright café, hair tied back, tea steaming next to her notebook. Sunlight warms her face.\n\nScene 10\nVoiceover script: And focused.\nIllustration: Clean desk, plants, open window. She types with renewed confidence and steady rhythm.\n\nScene 11\n=Voiceover script: Finally moving forward.\nIllustration: She walks along a tree-lined path outdoors, notebook in hand, wind brushing through her hair.\n\nScene 12\nVoiceover script: With intention.\nIllustration: She stands on a balcony at golden hour, city glowing below. Her silhouette is calm, grounded, centered.\n\nScene 13\nVoiceover script: The right structure changes everything.\nIllustration: Final cinematic shot: she closes her notebook softly as warm evening light falls across her face. Expression peaceful, clear, empowered.`
+  },
+  {
+    id: 11,
+    name: "Maya's First Smile",
+    type: "Storytelling",
+    description: `Scene 1\nVoiceover script: Maya felt invisible in her new city.\nIllustration: Maya (22–28, medium skin, long black hair) stands at a busy crosswalk. People blur past her. Cool grey tones. She clutches a small notebook to her chest, shoulders slightly hunched.\n\nScene 2\nVoiceover script: Every day felt like starting from zero.\nIllustration: Medium shot of Maya riding a crowded train. She stands near the door, eyes lowered, headphones in. Light flickers across her face as the train moves through tunnels.\n\nScene 3\nVoiceover script: Then one morning, she tried something small.\nIllustration: Close-up of Maya stepping onto the sidewalk, exhaling nervously. Warm sunlight hits her face, contrasting her anxious expression.\n\nScene 4\nVoiceover script: She smiled at a stranger.\nIllustration: A soft smile forms on Maya’s lips as she passes an older woman (60s) with kind eyes. The woman smiles back. The moment is warm, quiet, cinematic.\n\nScene 5\nVoiceover script: The stranger paused.\nIllustration: Slow-motion shot of the older woman turning slightly toward Maya. Sunlight glows behind her white hair. Her smile is genuine—soft lines at the eyes.\n\nScene 6\nVoiceover script: And answered with warmth.\nIllustration: Close-up of the older woman’s face. Eyes gentle, expression open. The world around them slows as if spotlighting the connection.\n\nScene 7\nVoiceover script: One small moment opened a door.\nIllustration: Maya walks into a cozy café. The barista (early 30s, friendly, warm-toned skin, curly hair) greets her with a cheerful wave. Maya is surprised—her posture softens.\n\nScene 8\nVoiceover script: A small conversation followed.\nIllustration: Maya at the counter, shy but smiling. The barista chats casually. Warm golden light, coffee steam rising between them, soft depth-of-field blur.\n\nScene 9\nVoiceover script: And that conversation became a friendship.\nIllustration: Montage mini-frame—Maya and the barista sitting at a table, laughing. Maya’s face bright for the first time; hair tucked behind one ear; notebook open beside her.\n\nScene 10\nVoiceover script: Her world began to shift.\nIllustration: Medium shot of Maya walking home with lighter steps. Evening light glows along rooftops. Her silhouette looks more open, less guarded.\n\nScene 11\nVoiceover script: All from a single smile.\nIllustration: Close-up of Maya touching her notebook, expression soft and grateful. Behind her, the city lights start to sparkle as dusk settles.\n\nScene 12\nVoiceover script: Small steps become new beginnings.\nIllustration: Final wide cinematic shot: Maya on a bridge overlooking the city at blue hour. Wind moves gently through her hair. She smiles—full, calm, confident—as the lights shimmer below.`
+  },
+  {
+    id: 12,
+    name: "The Imperfect Step",
+    type: "Inspirational",
+    description: `Scene 1\nVoiceover script: He kept waiting for the perfect moment.\nIllustration: A young man (25–30, light skin, short dark hair) stands by a window in warm early morning light. His hands rest in his pockets. Outside, life moves quickly while he stays still.\n\nScene 2\nVoiceover script: Seasons passed. Opportunities passed.\nIllustration: Time-lapse style scene—autumn leaves falling outside, then snow, then spring blossoms—seen through the same window. The man remains in the same spot, expression unchanged.\n\nScene 3\nVoiceover script: He waited for clarity.\nIllustration: Close-up of his eyes staring at a blank notebook. A pen lies untouched. Soft shadows fall across the table, emphasizing hesitation.\n\nScene 4\nVoiceover script: He waited for confidence.\nIllustration: Medium shot of him pacing a dim room. His reflection in the window looks uncertain, fragmented by city lights.\n\nScene 5\nVoiceover script: He waited for the “right version” of himself.\nIllustration: Symbolic scene—three faint ghost silhouettes behind him represent imagined “better” versions. They glow slightly, unreachable and distant.\n\nScene 6\nVoiceover script: But perfection never arrived.\nIllustration: Close-up of the wall calendar: no marks, no progress, just blank squares. His hand slowly drops the pen in quiet frustration.\n\nScene 7\nVoiceover script: Only choices do.\nIllustration: The man sits at a desk. A single beam of sunlight hits the blank page. His fingers curl around the pen again—hesitant, but ready.\n\nScene 8\nVoiceover script: So he took his first imperfect step.\nIllustration: Slow-motion shot of the pen touching paper for the first time. A single imperfect line appears—shaky but alive. His breathing steadies.\n\nScene 9\nVoiceover script: That step changed everything.\nIllustration: The room brightens dramatically. The blank notebook begins to fill with small ideas, sketches, short notes—symbolic creative momentum.\n\nScene 10\nVoiceover script: Not instantly. Not magically.\nIllustration: Montage frame—him writing late at night, correcting mistakes, crumpling a page but continuing anyway. Warm desk lamp creates an intimate, determined mood.\n\nScene 11\nVoiceover script: But steadily.\nIllustration: He tapes his first completed page to a wall. His face shows quiet pride. More pages appear behind it, forming a growing mosaic of progress.\n\nScene 12\nVoiceover script: He grew from doing, not waiting.\nIllustration: Wide shot: the man steps outside into bright morning sunlight. Shoulders relaxed, posture taller. The door behind him closes gently.\n\nScene 13\nVoiceover script: Start now. Learn on the way.\nIllustration: Final cinematic shot: he walks down a long open path with light blooming at the horizon. His silhouette is strong, confident, and in motion.`
+  },
+  {
+    id: 13,
+    name: "The Seed That Fought",
+    type: "Parable",
+    description: `Scene 1\nVoiceover script: A small seed was planted in dry soil.\nIllustration: Close-up of a tiny seed resting in cracked, sun-baked earth. Warm harsh sunlight above. Dust floating in the heat. The environment feels unforgiving but still hopeful.\n\nScene 2\nVoiceover script: Every day, it struggled for light.\nIllustration: Underground cross-section shot. The seed strains upward with a tiny sprout. Soil is dense, roots push through tight packed earth. Thin rays of sunlight penetrate faintly.\n\nScene 3\nVoiceover script: And for water.\nIllustration: Wider frame showing the sprout bending slightly toward a distant sign of moisture—soft droplets gathering on nearby roots. The colors are muted, earthy, restrained.\n\nScene 4\nVoiceover script: Most days, it almost gave up.\nIllustration: The sprout droops under harsh wind from above-ground. Symbolic debris—dry leaves, dust—whip across the frame. Lighting dim and discouraging.\n\nScene 5\nVoiceover script: But slowly, it pushed upward.\nIllustration: Time-lapse style frame of the sprout rising millimeter by millimeter. Soil cracks open around it. A soft warm glow begins to form at the top of the frame.\n\nScene 6\nVoiceover script: Then one day, it broke through.\nIllustration: The sprout bursts above the soil, illuminated by brilliant golden sunlight. The world above is vibrant and full of color. The camera angle is low, heroic, upward-looking.\n\nScene 7\nVoiceover script: No applause. No witnesses.\nIllustration: A tiny green sprout stands alone in a vast empty field, wind brushing past. The sky is broad and soft. The moment feels quiet, powerful, unnoticed.\n\nScene 8\nVoiceover script: Just survival.\nIllustration: Close-up of the sprout strengthening—stem thickening, leaves opening. Dew forms and glistens in early morning light. Growth feels intimate and hard-earned.\n\nScene 9\nVoiceover script: And persistence.\nIllustration: The plant grows taller through storms—rain pouring, wind bending it but not breaking it. Dramatic lighting highlights resilience.\n\nScene 10\nVoiceover script: And courage in the dark.\nIllustration: Nighttime shot. The plant’s silhouette stands firm under moonlight. Shadows of predators or danger lurk softly but never reach it.\n\nScene 11\nVoiceover script: Until one day, it bloomed.\nIllustration: Slow cinematic reveal: the plant now full-grown, crowned with a vivid flower glowing in warm sunlight. Soft breeze, petals opening in perfect symmetry.\n\nScene 12\nVoiceover script: People called it beautiful.\nIllustration: Wide field shot. Other travelers walk by and admire the flower. Warm tones, gentle human silhouettes, awe in their posture.\n\nScene 13\nVoiceover script: Never knowing how hard it fought to grow.\nIllustration: Split-scene showing above-ground beauty and underground struggle—deep roots twisting through compact earth. Warm glow above, dark cool colors below.\n\nScene 14\nVoiceover script: Strength built in darkness becomes beauty in light.\nIllustration: Final hero shot of the flower fully open, sunlight radiating through translucent petals. Background fades into a gentle golden gradient—symbolizing victory and transformation.`
+  },
+  {
+    id: 14,
+    name: "Sam &amp; Leo on the Rooftop",
+    type: "Emotional",
+    description: `Scene 1\nVoiceover script: Sam and Leo sat on the rooftop.\nIllustration: Wide shot of a quiet rooftop at blue hour. Sam (24–30, warm brown skin, short curly dark hair) and Leo (24–32, light skin, wavy dark hair) sit on the edge overlooking a glowing city skyline. Cool breeze, warm lights below.\n\nScene 2\nVoiceover script: City lights shimmered beneath them.\nIllustration: Over-the-shoulder shot showing soft bokeh lights across the skyline. Sam’s posture slightly hunched; Leo sits relaxed beside him. Night air moves gently through their hair.\n\nScene 3\nVoiceover script: “Do you ever feel stuck?” Sam asked.\nIllustration: Close-up on Sam’s face, lit by neon reflections from below. His expression is vulnerable, eyebrows slightly raised, lips pressed together in worry.\n\nScene 4\nVoiceover script: Leo smiled softly.\nIllustration: Medium close-up of Leo turning to Sam with a warm, calm smile. Soft moonlight outlines his features; the background is blurred city glow.\n\nScene 5\nVoiceover script: “Everyone feels stuck,” he said.\nIllustration: Leo speaks gently, leaning back on his hands. His expression is confident yet compassionate. Stars faintly visible above them.\n\nScene 6\nVoiceover script: “The trick is to move anyway.”\nIllustration: Symbolic visual: Leo gestures toward the city, hand slicing through the cool air. Light trails follow his motion, representing possibility and momentum.\n\nScene 7\nVoiceover script: Sam breathed out, tension fading.\nIllustration: Close-up of Sam exhaling slowly. His shoulders drop. Soft warm light from a nearby rooftop sign illuminates his face with comforting glow.\n\nScene 8\nVoiceover script: Something inside him shifted.\nIllustration: Side profile shot—Sam’s expression softens, eyes widening slightly with realization. Warm hues begin to blend into the previously cool-toned lighting.\n\nScene 9\nVoiceover script: His world felt a little lighter.\nIllustration: Both sit in silence, legs dangling, leaning forward. A gentle wind rustles their clothes as the city’s hum softens beneath them.\n\nScene 10\nVoiceover script: The right words can shift everything.\nIllustration: Final cinematic wide shot: Sam and Leo sitting shoulder to shoulder, framed against a vast night sky. The city glows warmly below as soft clouds drift overhead.`
+  },
+  {
+    id: 15,
+    name: "Midnight Teamwork",
+    type: "Team",
+    description: `Scene 1\nVoiceover script: At 11 PM, the office was silent.\nIllustration: Wide night shot inside a dim workspace with glowing monitors. Ben (28–35, light skin, short dark hair) sits hunched over a laptop, tired eyes reflecting blue screen light. Papers scattered around him.\n\nScene 2\nVoiceover script: “We’re not going to finish,” Ben whispered.\nIllustration: Close-up on Ben leaning back in his chair. Hands on his face, eyebrows pulled tight. The room feels heavy, lit by only a few desk lamps.\n\nScene 3\nVoiceover script: “We will,” Daniel replied. “One step at a time.”\nIllustration: Daniel (30–38, medium skin, sharp features) stands beside Ben, confident posture, arms crossed lightly. A soft warm lamp behind him creates a halo-like glow.\n\nScene 4\nVoiceover script: Jade lifted her head from her screen.\nIllustration: Jade (27–33, light-medium skin, long straight hair) glances over her monitor, eyes alert. Her canvas and UI mockups glow on her screen, lighting her face with soft purple-blue hues.\n\nScene 5\n09kVoiceover script: “Then let’s pick the next step,” she said.\nIllustration: Jade points to a digital whiteboard filled with sticky-note cards. Her tone is calm but decisive. Screen reflections highlight determination in her eyes.\n\nScene 6\nVoiceover script: They leaned in together.\nIllustration: Overhead shot of all four teammates—Ben, Ava, Jade, Mark—gathered around a glowing table screen. Hands pointing, dragging, grouping tasks. Energy shifts upward.\n\nScene 7\nVoiceover script: Stress turned into collaboration.\nIllustration: Medium shot of Ava (sharp features, confident energy) assigning tasks quickly. Her presence anchors the group. Warm highlights bloom behind her.\n\nScene 8\nVoiceover script: Pressure turned into momentum.\nIllustration: Mark (25–32, medium-dark skin, calm demeanor) rearranges tasks on the screen with systematic precision. His expression steady, controlled, analytical.\n\nScene 9\nVoiceover script: Ideas sparked fast.\nIllustration: Quick montage frame—Jade sketches a new design, Ben edits code, Ava updates the roadmap, Mark adjusts priorities. Soft motion blur emphasizes speed.\n\nScene 10\nVoiceover script: One step led to the next.\nIllustration: A chain of digital task cards lights up sequentially across a timeline UI. Their faces glow in sync with each completed step.\n\nScene 11\nVoiceover script: And progress finally appeared.\nIllustration: Wide shot: a large wall screen shows a near-complete build. The team stands together, shoulders touching, tension replaced with relief.\n\nScene 12\nVoiceover script: By sunrise, it wasn’t perfect.\nIllustration: Early dawn light enters the office. The team looks exhausted but proud. Coffee cups everywhere. The horizon glows pink through the windows.\n\nScene 13\nVoiceover script: But it was alive.\nIllustration: Final cinematic shot: the team stands side-by-side facing the glowing build on the screen. Their silhouettes confident, united, and ready for the next push.`
+  },
+  {
+    id: 16,
+    name: "Noah's Sketchbook",
+    type: "Children",
+    description: `Scene 1\nVoiceover script: During dinner, Noah frowned at his sketchbook.\nIllustration: A young boy (Noah, 10–12, light skin, short light-brown hair) sits at a wooden kitchen table. His sketchbook lies open with half-finished drawings. Warm overhead lighting. His expression tight, frustrated.\n\nScene 2\nVoiceover script: “It’s not good,” he muttered.\nIllustration: Close-up of Noah’s hands gripping the edges of the sketchbook. His pencils are scattered. Shadows on his face emphasize disappointment.\n\nScene 3\nVoiceover script: Lily shook her head gently.\nIllustration: Noah’s sister Lily (14–16, long dark brown hair, warm smile) leans forward from across the table. Her posture open, encouraging. Soft golden kitchen light reflects in her eyes.\n\nScene 4\n Voiceover script: “It doesn’t need to be perfect,” she said.\n Illustration: Close-up of Lily’s face. Tender, confident expression. She touches the edge of Noah’s sketchbook lightly, reassuring him.\n\nScene 5\nVoiceover script: “It needs to be yours.”\nIllustration: Artistic symbolic frame—Noah’s drawings glowing faintly, forming soft outlines behind Lily as if her words brought them to life.\n\nScene 6\nVoiceover script: Their mom added softly, “Every artist starts messy.”\nIllustration: Medium shot of Mom (late 30s–40s, warm eyes, gentle smile) standing by the counter, holding a cup of tea. Soft backlight gives her a nurturing glow.\n\nScene 7\nVoiceover script: Noah looked at his page again.\nIllustration: Close-up of the sketchbook: imperfect lines, uneven shading, but filled with imagination—creatures, landscapes, shapes. Noah’s fingers trace one drawing.\n\nScene 8\nVoiceover script: Something felt different this time.\nIllustration: Noah’s face softens, eyebrows lifting. Warm light brightens around him, symbolizing openness and renewed hope.\n\nScene 9\nVoiceover script: Encouragement sparked courage.\nIllustration: Dramatic but soft frame—Noah picking up his pencil again. His hand steadier. Light falls across the page like a fresh start.\n\nScene 10\nVoiceover script: He began drawing again.\nIllustration: Tight shot of pencil moving confidently across paper. Lines flow more smoothly. Noah’s expression is focused, absorbed, inspired.\n\nScene 11\nVoiceover script: This time, he didn’t hide his mistakes.\nIllustration: Quick montage frame—Noah erasing, redrawing, adjusting details, then smiling at the progress. Soft motion blur adds energy.\n\nScene 12\nVoiceover script: He embraced them.\nIllustration: Noah proudly adds a small sketch on top of an older messy area, turning it into something new. Warm rim light highlights creativity.\n\nScene 13\nVoiceover script: That night, something shifted inside him.\nIllustration: Final cinematic shot—Noah sits by his window finishing the drawing under a soft lamp. Stars glow faintly outside. His face calm, confident, finally proud.`
+  },
+  {
+    id: 17,
+    name: "Emma's Leap",
+    type: "Emotional",
+    description: `Scene 1\nVoiceover script: Emma sat across from her brother.\nIllustration: Warm café interior. Emma (28–35, light-medium skin, shoulder-length dark brown hair) sits at a wooden table, soft light on her face.\n\nScene 2\nVoiceover script: Her hands wrapped tightly around a warm cup.\nIllustration: Close-up of Emma’s hands gripping a steaming mug. Slight tension in her fingers. Soft morning light hits the cup’s rim.\n\nScene 3\nVoiceover script: She hesitated before speaking.\nIllustration: Emma looking down, brows slightly pulled together. The café window behind her forms a gentle rim light around her hair.\n\nScene 4\nVoiceover script: “You think I’m making a mistake?” she whispered.\nIllustration: Close-up of Emma’s face—uncertain eyes, lips barely parted. Steam rises between her and the camera.\n\nScene 5\nVoiceover script: “Leaving my job… it feels huge.”\nIllustration: Over-the-shoulder shot from behind Emma, showing Jason listening carefully.\n\nScene 6\nVoiceover script: Jason shook his head gently.\nIllustration: Jason (32–40, medium skin, short dark hair) in a calm frame, leaning forward with steady presence.\n\nScene 7\nVoiceover script: His voice was steady, anchored.\nIllustration: Jason’s expression—grounded, warm, encouraging. Soft backlight highlights the shape of his face.\n\nScene 8\nVoiceover script: “I think you’re finally choosing yourself,” he said.\nIllustration: Medium shot—Jason’s hand rests lightly on the table, inviting trust. Emma’s blurred silhouette in foreground.\n\nScene 9\nVoiceover script: Emma exhaled slowly.\nIllustration: Her shoulders lower; she releases the tension in her grip. Warm sunlight brushes across her cheek.\n\nScene 10\nVoiceover script: A small relief softened her face.\nIllustration: Close-up of Emma’s softened eyes. Light catches a slight smile forming.\n\nScene 11\nVoiceover script: “It’s scary,” she admitted.\nIllustration: Side profile—Emma glances toward the window, fingers tracing the edge of the cup.\n\nScene 12\nVoiceover script: Jason nodded.\nIllustration: Jason leaning back slightly, patient, supportive energy, arms relaxed.\n\nScene 13\nVoiceover script: “Of course it is,” he said calmly.\nIllustration: Jason with a reassuring half-smile, a warm glow behind him giving a safe atmosphere.\n\nScene 14\nVoiceover script: “Everything meaningful starts with fear.”\nIllustration: Symbolic visual—Emma’s reflection in the café window, sunlight brightening her profile, hinting at transformation.\n\nScene 15\nVoiceover script: Emma absorbed his words.\nIllustration: Close-up of her eyes—focused, thoughtful, beginning to shift from fear to clarity.\n\nScene 16\nVoiceover script: Something inside her aligned.\nIllustration: Emma sits taller, posture more grounded, cup resting gently between relaxed hands.\n\nScene 17\nVoiceover script: And for the first time…\nIllustration: Soft cinematic frame—Emma's face framed by warm morning light.\n\nScene 18\nVoiceover script: She believed him.\nIllustration: Final illustration—Emma looking directly forward with quiet confidence. Jason in soft focus behind her, smiling with pride.`
+  },
+  {
+    id: 18,
+    name: "Maya at the Train",
+    type: "Storytelling",
+    description: `Scene 1\nVoiceover script: Maya paced nervously on the platform.\nIllustration: A young woman, Maya (25–32, medium skin, long black hair tied loosely), walking back and forth on a clean modern train platform. Early morning light, cool tones, soft motion blur to show restlessness.\n\nScene 2\nVoiceover script: The train hummed in the distance.\nIllustration: A wide shot—train tracks stretching forward as faint lights glow from the approaching train. Maya stands small against the vast space.\n\nScene 3\nVoiceover script: Liam stepped beside her.\nIllustration: Liam (28–35, light skin, curly short brown hair) appears gently next to Maya, hands in his pockets, calm expression. Warm light contrasts her anxious posture.\n\nScene 4\nVoiceover script: “You don’t have to go,” he said.\nIllustration: Close-up of Liam’s face—soft eyes, supportive energy. Slight breeze moves his hair.\n\nScene 5\nVoiceover script: Zara joined them with a quiet smile.\nIllustration: Zara (25–33, medium-dark skin, straight short hair) stands on Maya’s other side. Gentle, reassuring presence.\n\nScene 6\nVoiceover script: “But if you do,” Zara said…\nIllustration: Over-the-shoulder shot from Maya’s view, looking at Zara speaking with calm confidence.\n\nScene 7\nVoiceover script: “…go because it’s your dream.”\nIllustration: Close-up of Zara’s expressive hands emphasizing her words, sun creating a halo outline behind her.\n\nScene 8\nVoiceover script: “Not because you’re running.”\nIllustration: Maya’s face in profile—eyes focused, conflicted. Train tracks blur behind her.\n\nScene 9\nVoiceover script: Maya swallowed hard.\nIllustration: Close-up of her throat and jawline tightening slightly. Warm light highlights the tension.\n\nScene 10\nVoiceover script: “What if I fail?” she whispered.\nIllustration: Soft frontal shot—Maya’s eyes shimmering, hands fidgeting with the strap of her bag.\n\nScene 11\nVoiceover script: Liam stepped closer.\nIllustration: Liam gently places a hand on Maya’s shoulder; his posture steady and grounded.\n\nScene 12\nVoiceover script: “Then you’ll learn,” he said softly.\nIllustration: Close-up of Liam’s face—quiet certainty, small reassuring smile.\n\nScene 13\nVoiceover script: “And we’ll still be here.”\nIllustration: Three-shot of all of them—Maya centered, her two friends flanking her with solid, supportive energy.\n\nScene 14\n Voiceover script: The train doors opened with a chime.\nIllustration: Bright, cinematic shot—train arriving, doors sliding open, warm interior light spilling out.\n\nScene 15\nVoiceover script: She looked inside.\nIllustration: POV shot—empty seats, gentle morning glow, a sense of possibility inside the train.\n\nScene 16\nVoiceover script: She breathed deeply.\nIllustration: Close-up of Maya inhaling, eyes closing briefly, sunlight catching her hair.\n\nScene 17\nVoiceover script: And she stepped forward.\nIllustration: Side shot—Maya taking a deliberate step into the train, foot crossing the threshold.\n\nScene 18\nVoiceover script: The moment felt like a beginning.\nIllustration: Maya standing inside, looking out at her friends, a faint confident smile forming.\n\nScene 19\nVoiceover script: As the doors closed, the story became hers to write.\nIllustration: Final frame—train pulling away, Maya visible through the window, hopeful expression; her friends waving softly on the platform.`  
+  },
+  {
+    id: 19,
+    name: "One Thing Forward",
+    type: "Team",
+    description: `Scene 1\nVoiceover script: The clock hit midnight.\nIllustration: A dim office lit by desk lamps. A wall clock shows 12:00 AM. Papers, laptops, and coffee cups scattered. Three teammates look exhausted but focused.\n\nScene 2\nVoiceover script: The team gathered around the whiteboard.\nIllustration: Ben, Ava, and Mark stand around a large whiteboard filled with diagrams and crossed-out ideas.\n- Ben: late 30s, short beard, broad shoulders.\n- Ava: early 30s, sharp eyes, curly hair in a bun.\n- Mark: mid-20s, slim, glasses, hoodie.\n\nScene 3\nVoiceover script: “We’re nowhere close,” Ben said.\nIllustration: Close-up of Ben pointing at a tangled flowchart on the board, frustration visible, shadows under his eyes.\n\nScene 4\nVoiceover script: Ava tapped the marker.\nIllustration: Medium shot—Ava standing straight, tapping a whiteboard marker thoughtfully against her palm, determination in her expression.\n\nScene 5\nVoiceover script: “Then let’s choose the one thing that moves us forward.”\nIllustration: Ava circling a single key idea on the board in bold red, the rest fading behind her.\n\nScene 6\nVoiceover script: Mark hesitated.\nIllustration: Close-up—Mark biting his lip, looking between his teammates and the overwhelming list of tasks.\n\nScene 7\nVoiceover script: “And drop the rest?” he asked.\nIllustration: Mark gesturing to the overloaded board, eyebrows raised, showing doubt but curiosity.\n\nScene 8\nVoiceover script: “Exactly,” Ava replied.\nIllustration: Ava nodding confidently, switching the board to a new page with only one single focused task written on it.\n\nScene 9\nVoiceover script: They got to work.\nIllustration: Time-lapse-style moment—three characters diving into tasks: typing, sketching, testing, reviewing. Motion blur shows intensity.\n\nScene 10\nVoiceover script: Only essentials.\nIllustration: Their desks now clean except for one laptop each, one notebook, one pen. Minimalism = focus.\n\nScene 11\nVoiceover script: The room changed.\nIllustration: Warm light from monitors reflects on their faces; energy shifts from stress to flow-state concentration.\n\nScene 12\nVoiceover script: Pressure turned into momentum.\nIllustration: Ben and Mark high-speed collaborating while Ava directs from the whiteboard. Vibrant colors show rising energy.\n\nScene 13\nVoiceover script: By sunrise, the project wasn’t perfect—\nIllustration: Window shows a soft sunrise. The team looks tired but proud. Sticky notes show revisions made overnight.\n\nScene 14\nVoiceover script: But it was alive.\nIllustration: A laptop displaying a working prototype glowing brightly in the early morning light.\n\nScene 15\nVoiceover script: And for the first time, they felt like a real team.\nIllustration: The three sit together on the floor, backs against the wall, sharing relieved smiles as sunlight fills the room—bonded, aligned, accomplished.`
+  },
+  {
+    id: 20,
+    name: "The Fisherman's Lesson",
+    type: "Parable",
+    description: `Scene 1\nVoiceover script: An old fisherman once told his grandson a story.\nIllustration: A weathered fisherman (70s, tan skin, white beard, deep wrinkles) sits on a wooden pier at sunrise. Beside him, a boy (8–10, light skin, messy hair) listens intently. Soft golden light reflects on calm water.\n\nScene 2\nVoiceover script: The ocean, he said, teaches patience.\nIllustration: Wide shot of the vast, gentle ocean. Early morning mist drifts over the water. The fisherman gestures toward the horizon with a slow, knowing hand.\n\nScene 3\nVoiceover script: Some days the waves bring abundance.\nIllustration: Nets overflowing with fish glistening in warm sun. The boy’s eyes widen with amazement as he helps pull a heavy net.\n\nScene 4\nVoiceover script: Other days, nothing arrives.\nIllustration: Empty nets, hanging loose. The boy frowns. Wind picks up slightly, blowing his hair. The fisherman remains calm and steady.\n\nScene 5\nVoiceover script: The boy didn’t understand.\nIllustration: Close-up of the boy, eyebrows furrowed, looking from the empty net to his grandfather with confusion.\n\nScene 6\nVoiceover script: “Why try again tomorrow?” he asked.\nIllustration: The boy sits cross-legged on the pier, looking up at the fisherman with questioning eyes. Seagulls glide overhead.\n\nScene 7\nVoiceover script: The fisherman smiled softly.\nIllustration: Close-up of the old fisherman’s gentle, wise smile. Sunlight outlines his profile, giving him a warm presence.\n\nScene 8\nVoiceover script: “Because each sunrise is another chance.”\nIllustration: A glowing sunrise over the ocean, huge and cinematic. The boy and fisherman silhouetted against golden light.\n\nScene 9\nVoiceover script: Another chance to cast your line.\nIllustration: Slow-motion shot—fishing line flying through the air, shimmering droplets catching the sun.\n\nScene 10\nVoiceover script: To show up.\nIllustration: The fisherman stands firm at the edge of the pier, feet planted, posture grounded, hand steady on the fishing rod.\n\nScene 11\nVoiceover script: To try again.\nIllustration: The boy mimics him—feet apart, holding a small rod, determined expression for the first time.\n\nScene 12\nVoiceover script: The boy grew up remembering that lesson.\nIllustration: Seamless transition—teenage version of the boy (now 16–18) fishing alone at dawn, same peaceful setting.\n\nScene 13\nVoiceover script: Life isn’t about controlling the sea.\nIllustration: The older teen faces rougher waves now, wind pushing against him, but he remains steady.\n\nScene 14\nVoiceover script: It’s about showing up with faith…\nIllustration: Close-up of his hand gripping the rod tightly but calmly, knuckles steady rather than tense.\n\nScene 15\nVoiceover script: Consistency…\nIllustration: A montage of him fishing through different weather—sun, clouds, light rain—always returning.\n\nScene 16\nVoiceover script: And an open heart.\nIllustration: Soft shot of the teen smiling as he watches the sunrise, calm water reflecting warm colors.\n\nScene 17\nVoiceover script: That is what the ocean teaches.\nIllustration: Final cinematic wide shot—ocean stretching endlessly, sun rising high, the boy (now older) standing tall and confident at the water’s edge.`
+  },
+  {
+    id: 21,
+    name: "Your Workflow, Simplified",
+    type: "Demo",
+    description: `Scene 1\nVoiceover script: Meet the CRM that makes your day simpler.\nIllustration: Soft fade-in of a clean laptop screen on a desk, slight ambient glow, cursor blinking gently, a calm and welcoming interface.\n\nScene 2\nVoiceover script: Start by capturing every lead in one place.\nIllustration: Screen recording of the Leads dashboard loading smoothly; cards arranged neatly; subtle UI highlights guiding the viewer’s eye.\n\nScene 3\nVoiceover script: Add new contacts in seconds.\nIllustration: Cursor clicks “New Contact”; modal slides in with a gentle micro-animation; fields auto-suggest as typing begins.\n\nScene 4\nVoiceover script: See the full story behind every client.\nIllustration: Screen recording of a contact profile opening; timeline of emails, calls, and tasks; smooth vertical scrolling with soft UI shadows.\n\nScene 5\nVoiceover script: Follow-ups you’ll never forget.\nIllustration: Zoom on automated reminders being enabled; calendar overlay appears with color-coded tasks.\n\nScene 6\nVoiceover script: Turn conversations into opportunities.\n Illustration: Pipeline view appears; a deal card is dragged from “New” to “Qualified” with a satisfying snap animation.\n\nScene 7\nVoiceover script: Work together without friction.\nIllustration: Team activity feed updates live; teammate avatar appears; comment bubbles animate smoothly on a deal card.\n\nScene 8\nVoiceover script: Track progress effortlessly.\nIllustration: Dashboard charts animate into view: sales forecast, performance graph, conversion funnel, all transitioning smoothly.\n\nScene 9\n Voiceover script: Insights that keep you ahead.\nIllustration: Reports section opens; bar chart animates upward; tooltip highlights key metrics; soft gradient reflections on edges.\n\nScene 10\nVoiceover script: Every tool you need. In one place.\nIllustration: Quick montage: email composer, task list, mobile app preview, integrations panel, stitched together with fluid cuts.\n\nScene 11\nVoiceover script: Your day. Organized. Clear. Under control.\nIllustration: Final hero shot: CRM homepage expands to full brightness; vignette fades; confident cursor moves across the screen with purpose.`
+  },
+  {
+    id: 22,
+    name: "Productivity App Promo",
+    type: "Promo",
+    description: `Scene 1\nVoiceover script: Every day feels the same: too many tasks, too many tools, and your focus scattered everywhere.\nIllustration: Rapid montage of chaotic screens, tabs flying, notifications stacking.\n\nScene 2\nVoiceover script: You jump between apps, lose track of priorities, and the workload never feels under control.\nIllustration: Quick cuts of a stressed user switching apps; cursor flicking between windows.\n\nScene 3\nVoiceover script: This productivity app changes that.\nIllustration: Smash cut to clean, calm interface; app logo animates in.\n\nScene 4\nVoiceover script: It brings tasks, deadlines, notes, and focus tools into one clean, simple interface.\nIllustration: Fast UI sweep across dashboard sections; smooth scroll through organized views.\n\nScene 5\nVoiceover script: No clutter. No noise. Just what you need to move forward.\nIllustration: Cluttered screen dissolves instantly into minimal layout.\n\nScene 6\nVoiceover script: Plan your day in seconds.\nIllustration: Drag-and-drop tasks into “Today”; satisfying snap animation.\n\nScene 7\nVoiceover script: See your priorities clearly.\nIllustration: Priority tags highlight; timeline view slides in with a quick motion.\n\nScene 8\nVoiceover script: Track your progress with ease.\nIllustration: Progress bars animate upward; checkmarks pop quickly.\n\nScene 9\nVoiceover script: The UI is fast, intuitive, and designed to help you stay focused, not overwhelmed.\nIllustration: Rapid, fluid transitions through key screens; mobile version pops into view.\n\nScene 10\nVoiceover script: It’s time to take back your day.\nIllustration: Multi-device hero shot appearing with a fast, confident zoom-out.\n\nScene 11\nVoiceover script: Download the app and start working with clarity and intention.\nIllustration: Strong CTA screen with “Download Now” button glowing; interface fades into clean white.`
+  },
+  {
+    id: 23,
+    name: "If You Feel Behind, Watch This",
+    type: "Social",
+    description: `Scene 1\nVoiceover script: Feeling behind? Good.\nIllustration: Quick flash of bold text over a blurred city rush; fast zoom-in transition; energetic beat kick.\n\nScene 2\nVoiceover script: It means you’re still in the game.\nIllustration: A person walking with determination; rapid cut-in; subtle motion blur emphasizing momentum.\n\nScene 3\nVoiceover script: Everyone moves at their own pace — yours is building strength.\nIllustration: Slow-motion shot of feet stepping forward; bold text sliding in from the left; warm highlight on movement.\n\nScene 4\nVoiceover script: Stop comparing. Start moving.\nIllustration: Split-screen: social media scrolling on one side fades out; the person taking a confident step on the other fades in; bold text pops center.\n\nScene 5\nVoiceover script: One small step today is all it takes.\nIllustration: Close-up of hand grabbing a door handle, or clicking “Start”; quick punch-zoom for impact.\n\nScene 6\nVoiceover script: You’re not late. You’re just getting started.\nIllustration: Bright, uplifting final shot; sunlight flare; bold, centered text; upbeat transition out.`
+  },
+  {
+    id: 24,
+    name: "Midjourney for Beginners",
+    type: "Tutorial",
+    description: `Scene 1\nVoiceover script: Welcome. In this tutorial, you’ll learn Midjourney from scratch — one simple step at a time.\nIllustration: Soft fade-in of a clean desktop screen; Midjourney logo appears gently; calm, instructional atmosphere.\n\nScene 2\nVoiceover script: First, we join the Midjourney Discord.\nIllustration: Screen recording of Discord opening; cursor clicks “Join Server”; Midjourney server loads with bright, clear channels.\n\nScene 3\nVoiceover script: Then we open a channel where you can generate images.\nIllustration: Cursor scrolling to “Newbies” or “Fast” channels; clean UI highlight guiding the viewer.\n\nScene 4\nVoiceover script: Now, let’s write your first prompt.\nIllustration: Text box at the bottom of Discord; soft zoom on the cursor typing “/imagine”; command opens with a smooth micro-animation.\n\nScene 5\nVoiceover script: Let’s start simple — a cozy reading corner by the window, soft evening light.\nIllustration: On-screen text of the prompt; Midjourney processing animation appears; subtle motion on the UI.\n\nScene 6\nVoiceover script: Midjourney now gives you four image options based on your idea.\nIllustration: The generated 4-grid appears; gentle zoom-in on the images; warm light reflections.\n\nScene 7\nVoiceover script: Choose the one you like — and let’s enhance it.\nIllustration: Cursor clicks “U1”; upscale result appears with sharper details; subtle vignette lift.\n\nScene 8\nVoiceover script: Want a different direction? Try variations.\nIllustration: Cursor selects “V1”; new grid appears showing alternate ideas; smooth transition between results.\n\nScene 9\nVoiceover script: Let’s test a few more prompts together.\nIllustration: Quick montage: typing a portrait prompt, a landscape prompt, a stylized illustration; results popping in with light animations.\n\nScene 10\nVoiceover script: You can copy and tweak any prompt you like.\nIllustration: Cursor highlights part of a prompt; slight text edit; new result generates; side-by-side comparison shows changes.\n\nScene 11\nVoiceover script: And with each step, you’ll get better at guiding Midjourney to the style you want.\nIllustration: Different image styles flash gently: cinematic, watercolor, futuristic, warm cozy interior.\n\nScene 12\nVoiceover script: By the end, you’ll know how to write prompts, explore styles, and create your own images with confidence.\nIllustration: Final hero shot: clean grid of beautiful Midjourney outputs; soft glow; camera slowly pulls back to reveal variety.\n\nScene 13\nVoiceover script: Let’s get started.\nIllustration: Cursor returns to Discord typing area; soft focus on “/imagine”; screen fades to white.`
+  },
+  {
+    id: 25,
+    name: "The Train Decision",
+    type: "Cinematic",
+    description: `Scene 1\nVoiceover script: As the train approached, Maya paced nervously.\nIllustration: Wide shot of a dimly lit platform; rails vibrating softly; Maya walking back and forth, hands clenched, tension in her posture.\n\nScene 2\nVoiceover script: “You don’t have to go,” Liam said.\nIllustration: Liam steps into frame beside her; gentle side light reveals concern on his face; background blurred commuters passing.\n\nScene 3\nVoiceover script: Zara added, “But if you do, go because it’s your dream — not because you’re running.”\nIllustration: Zara stands slightly in front, warm backlight forming a subtle halo; her expression steady, supportive; the train lights glow behind her.\n\nScene 4\n Voiceover script: “What if I fail?” Maya asked.\nIllustration: Close-up on Maya’s face; eyes filled with fear and doubt; train reflections shimmering across her skin.\n\nScene 5\nVoiceover script: “Then you’ll learn,” Liam replied. “And we’ll still be here.”\nIllustration: Tight two-shot of Liam and Zara flanking Maya; reassuring looks; subtle camera push-in emphasizing unity.\n\nScene 6\nVoiceover script: The doors opened.\nIllustration: Train doors sliding apart with a bright interior light spilling out; slight wind lifting Maya’s hair; ambient platform noise muted.\n\nScene 7\nVoiceover script: She breathed deeply, stepped inside…\nIllustration: Slow-motion shot of Maya taking a deep breath; foot crossing the threshold; warm interior light enveloping her silhouette.\n\nScene 8\nVoiceover script: …and felt the story finally becoming hers to write.\nIllustration: Maya inside the train, looking forward with new determination; soft sunrise tones filling the window; journey beginning as doors close behind her.`
+  }
+];</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
+    </body>
+</html>
+    

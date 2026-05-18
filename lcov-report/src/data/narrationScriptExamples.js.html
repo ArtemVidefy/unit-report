@@ -1,0 +1,505 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/data/narrationScriptExamples.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/data</a> narrationScriptExamples.js</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a>
+<a name='L113'></a><a href='#L113'>113</a>
+<a name='L114'></a><a href='#L114'>114</a>
+<a name='L115'></a><a href='#L115'>115</a>
+<a name='L116'></a><a href='#L116'>116</a>
+<a name='L117'></a><a href='#L117'>117</a>
+<a name='L118'></a><a href='#L118'>118</a>
+<a name='L119'></a><a href='#L119'>119</a>
+<a name='L120'></a><a href='#L120'>120</a>
+<a name='L121'></a><a href='#L121'>121</a>
+<a name='L122'></a><a href='#L122'>122</a>
+<a name='L123'></a><a href='#L123'>123</a>
+<a name='L124'></a><a href='#L124'>124</a>
+<a name='L125'></a><a href='#L125'>125</a>
+<a name='L126'></a><a href='#L126'>126</a>
+<a name='L127'></a><a href='#L127'>127</a>
+<a name='L128'></a><a href='#L128'>128</a>
+<a name='L129'></a><a href='#L129'>129</a>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a>
+<a name='L134'></a><a href='#L134'>134</a>
+<a name='L135'></a><a href='#L135'>135</a>
+<a name='L136'></a><a href='#L136'>136</a>
+<a name='L137'></a><a href='#L137'>137</a>
+<a name='L138'></a><a href='#L138'>138</a>
+<a name='L139'></a><a href='#L139'>139</a>
+<a name='L140'></a><a href='#L140'>140</a>
+<a name='L141'></a><a href='#L141'>141</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export const narrationScriptExamples = [
+  {
+    id: 1,
+    name: "The Quiet Beginning",
+    type: "Motivational",
+    description: "Every big change in life starts quietly, long before the world notices. It begins with a decision you make alone — to try again, to rise again, to believe again. You don’t need permission, and you don’t need perfect conditions. You need one honest moment with yourself. The moment you choose growth over comfort, your entire direction shifts. Keep moving. The future builds itself around your steps."
+  },
+  {
+    id: 2,
+    name: "Through the Fog",
+    type: "Inspirational",
+    description: "Fear always whispered to me that I wasn’t ready. It told me to wait for the right moment, the right skill, the right version of myself. But nothing changed until the day I took a small step forward anyway. I learned that fear isn’t a wall — it’s a fog. When you walk through it, you discover strength you never knew you had. Courage isn’t loud. It’s a quiet decision to keep going."
+  },
+  {
+    id: 3,
+    name: "Small Actions, Big Change",
+    type: "Explainer",
+    description: "Habits shape almost every part of our lives, but they begin in the most surprising place — tiny, repeated actions the brain learns to automate. The brain rewards familiarity, which is why bad habits stick and new habits feel uncomfortable. The secret is repetition with intention. Small actions, done consistently, create stronger pathways in the brain. And over time, those pathways become identity. Change starts small, but it grows big."
+  },
+  {
+    id: 4,
+    name: "Where Ambition Lives",
+    type: "Corporate",
+    description: "Every organization has a story. Ours begins with a simple belief: great teams deserve tools that help them think clearer, move faster, and work with purpose. We build technology that removes friction, empowers collaboration, and transforms ideas into real outcomes. We are driven by innovation, but defined by people — the teams we serve and the problems we help them solve. This is where ambition meets execution."
+  },
+  {
+    id: 5,
+    name: "The New Way to Work",
+    type: "Demo",
+    description: "This is the new way to work. Our platform brings your tasks, data, and communication into one place, so nothing gets lost and everything moves faster. Start with a clear overview, drill into details instantly, and automate the steps that slow you down. It’s designed to be simple, powerful, and easy to use from day one. Whether you’re working alone or with a team, this is how productivity feels when it finally clicks."
+  },
+  {
+    id: 6,
+    name: "Invisible Work",
+    type: "Motivational",
+    description: "Most people think success comes from big leaps, but the truth is simpler. It’s built from tiny, invisible actions — the ones no one claps for. Waking up early. Practicing when you feel tired. Improving by one percent when you feel stuck. These quiet moments compound until the world calls it ‘overnight success.’ So if you feel behind, remember this: you’re not late. You’re building."
+  },
+  {
+    id: 7,
+    name: "You Already Are",
+    type: "Storytelling",
+    description: `"Why are you giving up?" Sarah asked softly. James looked down. "Because nothing I do seems to work." Sarah shook her head. "You’re measuring yourself by results, not effort. Growth doesn’t look like winning — it looks like trying again." James took a breath, feeling something shift. "So you think I can do it?" he asked. "You already are," she replied. And for the first time, he believed her.`
+  },
+  {
+    id: 8,
+    name: "Start Today",
+    type: "Social",
+    description: "Listen — if you’re waiting for perfect timing, you’ll wait forever. Start now. Even messy. Even uncertain. Every person you admire began with zero clarity and a lot of mistakes. Progress comes from motion, not confidence. And here’s the truth: no one is judging you as much as you think. Post the video. Launch the idea. Try the thing. Your future self is begging you to start today."
+  },
+  {
+    id: 9,
+    name: "Kyoto in Light",
+    type: "Travel",
+    description: "Kyoto felt like stepping into a dream — quiet streets, warm light, and colors that moved slower than time. Every corner carried a story, from the temples at sunrise to the lanterns glowing at night. I wasn’t just traveling; I was remembering how to breathe. Some places don’t change your life — they remind you of the life you wanted to live all along."
+  },
+  {
+    id: 10,
+    name: "Clarity Returns",
+    type: "Personal",
+    description: "A year ago, I felt overwhelmed and unsure of my next step. I tried different tools, different routines, but nothing clicked. Then I found a system that finally helped me create clarity. It didn’t magically solve my problems, but it made my path obvious and my progress measurable. Today, I’m more focused, calmer, and moving forward with intention. Sometimes, the right structure changes everything."
+  },
+  {
+    id: 11,
+    name: "The Smile That Changed Everything",
+    type: "Storytelling",
+    description: "When Maya moved to a new city, she felt invisible. Every day felt like starting from zero. But one morning, she decided to smile at a stranger on her way to work. That tiny act changed everything. A small conversation turned into a friendship, and the friendship turned into a new beginning. Sometimes, the smallest steps open the biggest doors."
+  },
+  {
+    id: 12,
+    name: "The Imperfect Step",
+    type: "Motivational",
+    description: "There was once a young man who kept waiting for the perfect moment to begin. He waited through seasons, opportunities, and years. Then one day he realized that perfection never arrives. Only choices do. So he took his first imperfect step, and that step changed every part of his life. The lesson is simple: start now, and learn on the way."
+  },
+  {
+    id: 13,
+    name: "The Seed That Fought",
+    type: "Parable",
+    description: "A small seed was planted in dry soil. Every day, it struggled for sunlight and water, nearly giving up. But slowly, it pushed upward until it broke through the dirt. When it finally bloomed, people called it beautiful, never knowing how hard it fought to grow. Remember: the strength you build in the dark becomes the beauty the world finally sees."
+  },
+  {
+    id: 14,
+    name: "Rooftop Conversations",
+    type: "Storytelling",
+    description: `"Sam and Leo sat on the rooftop, looking at the city lights. 'Do you ever feel stuck?' Sam asked. Leo smiled softly. 'Everyone feels stuck. The trick is to move anyway.' Sam breathed out, feeling lighter. In that quiet moment, he realized that sometimes the right words from the right person can shift your whole world."`
+  },
+  {
+    id: 15,
+    name: "One Step at a Time",
+    type: "Team",
+    description: `"At 11 PM, the office was silent except for keyboards. 'We’re not going to finish in time,' Mia whispered. 'We will,' Daniel replied. 'One step at a time.' Jade looked up. 'Then let’s decide the step.' They leaned in together, sharing ideas. And for the first time that week, the stress became teamwork, and the pressure turned into momentum."`
+  },
+  {
+    id: 16,
+    name: "The Encouragement",
+    type: "Children",
+    description: `"During dinner, Noah frowned at his sketchbook. 'It’s not good,' he muttered. His sister Lily shook her head. 'It doesn’t need to be perfect. It needs to be yours.' Their mom added gently, 'Every artist starts messy.' Noah smiled a little. That night he returned to his drawing, realizing that encouragement is sometimes the spark that brings courage back to life."`
+  },
+  {
+    id: 17,
+    name: "Choosing Yourself",
+    type: "Emotional",
+    description: `"Emma sat across from her brother, her hands wrapped around a warm cup. 'You think I’m making a mistake leaving my job?' she asked quietly. Jason shook his head. 'I think you’re finally choosing yourself.' Emma exhaled, tension softening. 'It’s scary,' she whispered. 'Of course it is,' he said. 'Everything meaningful starts with fear.' And for the first time, she believed him."`
+  },
+  {
+    id: 18,
+    name: "The Train Decision",
+    type: "Cinematic",
+    description: `"As the train approached, Maya paced nervously. 'You don’t have to go,' Liam said. Zara added, 'But if you do, go because it’s your dream—not because you’re running.' 'What if I fail?' Maya asked. 'Then you’ll learn,' Liam replied. 'And we’ll still be here.' The doors opened. She breathed deeply, stepped inside, and felt the story finally becoming hers to write."`
+  },
+  {
+    id: 19,
+    name: "The Night Shift",
+    type: "Team",
+    description: `"The clock hit midnight, and the team gathered around the whiteboard. 'We’re nowhere close,' Ben said. Ava tapped the marker. 'Then let’s choose the one thing that moves us forward.' 'And drop the rest?' Mark asked. 'Exactly,' Ava said. They worked through the night, focusing only on essentials. By sunrise, the project wasn’t perfect—but it was alive. And for the first time, they felt like a real team."`
+  },
+  {
+    id: 20,
+    name: "The Ocean Lesson",
+    type: "Parable",
+    description: "An old fisherman once told his grandson that the ocean teaches patience. Some days the waves bring abundance, and other days nothing arrives. But each sunrise is another chance to cast your line. The boy grew up remembering that lesson. Life isn’t about controlling the sea—it’s about showing up with faith, consistency, and an open heart."
+  },
+  {
+    id: 21,
+    name: "Productivity App Promo",
+    type: "Promo",
+    description: `"Every day feels the same: too many tasks, too many tools, and your focus scattered everywhere. You jump between apps, lose track of priorities, and the workload never feels under control. This productivity app changes that. It brings tasks, deadlines, notes, and focus tools into one clean, simple interface. No clutter. No noise. Just what you need to move forward. Plan your day in seconds. See your priorities clearly. Track your progress with ease. The UI is fast, intuitive, and designed to help you stay focused, not overwhelmed. It’s time to take back your day. Download the app and start working with clarity and intention."`
+  },
+  {
+    id: 22,
+    name: "If You Feel Behind, Watch This",
+    type: "Social",
+    description: `"Feeling behind? Good. It means you’re still in the game. Everyone moves at their own pace — yours is building strength. Stop comparing. Start moving. One small step today is all it takes. You’re not late. You’re just getting started."`
+  },
+  {
+    id: 23,
+    name: "Midjourney for Beginners",
+    type: "Tutorial",
+    description: `"In this video, I’ll show you how to start using Midjourney, step by step, even if you’ve never touched it before. First, we’ll join the Midjourney Discord and open a channel where you can create images. Then we’ll write your very first prompt together, so you can see exactly how it works. We’ll start simple: a short description, like “a cozy reading corner by the window, soft evening light.” You’ll see how Midjourney turns that sentence into four image options. Next, I’ll show you how to make variations, upscale your favorite result, and save it. We’ll try a few more prompts and I’ll give you clear examples you can copy and tweak. By the end of this tutorial, you’ll know how to write prompts, explore different styles, and confidently create your own images with Midjourney — one simple step at a time."`
+  }
+];
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-16T10:33:48.993Z
+            </div>
+        <script src="../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
+    </body>
+</html>
+    
